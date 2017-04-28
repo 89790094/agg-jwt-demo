@@ -16,8 +16,9 @@
     - Edit Port -> package.json:  "scripts": {"dev": "egg-bin dev --port PORT"}
     - 
   2. config/plugin.js
-
-    - Enable Plugin(cnpm i PlugName --save)
+    - Install Plugin
+      * cnpm i PlugName --save
+    - Enable Plugin
       * Mongoose/mongodb
         > mysql: {enable: true,package: 'egg-mongoose'}
       * Mysql
@@ -35,7 +36,7 @@
   3. config/config.default.js
 
     - Add Cookies Keys -> keys:'your key'
-    - 
+    - Add Jwt secret -> 'your key'
 ### Deploy
 
 
