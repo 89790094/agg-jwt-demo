@@ -61,3 +61,82 @@
 2017-04-28 16:04:48,632 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
 2017-04-28 16:04:48,833 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
 2017-04-28 16:04:49,472 INFO 29330 [Leader:Watcher] socket connected, port: 58809
+2017-04-28 16:07:45,875 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:07:46,079 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 16:07:46,661 INFO 29330 [Leader:Watcher] socket connected, port: 59155
+2017-04-28 16:08:06,582 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:08:06,787 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js rename
+2017-04-28 16:08:07,092 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:08:07,143 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:08:07,348 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-04-28 16:08:07,644 INFO 29330 [Leader:Watcher] socket connected, port: 59350
+2017-04-28 16:08:08,352 INFO 29330 [Leader:Watcher] socket connected, port: 59355
+2017-04-28 16:08:54,617 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:08:54,822 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-04-28 16:08:55,319 INFO 29330 [Leader:Watcher] socket connected, port: 59490
+2017-04-28 16:09:22,572 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:09:22,776 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js rename
+2017-04-28 16:10:21,277 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:10:21,482 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js rename
+2017-04-28 16:10:22,110 INFO 29330 [Leader:Watcher] socket connected, port: 59881
+2017-04-28 16:10:23,028 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:10:23,230 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 16:10:23,816 INFO 29330 [Leader:Watcher] socket connected, port: 59890
+2017-04-28 16:10:33,743 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:10:33,947 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js rename
+2017-04-28 16:10:34,788 INFO 29330 [Leader:Watcher] socket connected, port: 59897
+2017-04-28 16:11:04,732 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:11:04,934 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 16:11:05,490 INFO 29330 [Leader:Watcher] socket connected, port: 60038
+2017-04-28 16:12:36,877 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:12:37,079 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 16:12:37,617 INFO 29330 [Leader:Watcher] socket connected, port: 60298
+2017-04-28 16:13:04,456 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:13:04,660 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 16:13:05,282 INFO 29330 [Leader:Watcher] socket connected, port: 60381
+2017-04-28 16:24:44,671 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:24:44,873 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-04-28 16:24:45,966 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:24:46,171 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-04-28 16:27:19,484 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:27:19,689 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-04-28 16:27:20,236 INFO 29330 [Leader:Watcher] socket connected, port: 60781
+2017-04-28 16:27:22,969 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:27:23,170 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-04-28 16:27:23,777 INFO 29330 [Leader:Watcher] socket connected, port: 60790
+2017-04-28 16:28:50,752 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:28:50,955 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/user.js rename
+2017-04-28 16:28:51,625 INFO 29330 [Leader:Watcher] socket connected, port: 60816
+2017-04-28 16:28:51,663 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:28:51,865 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/user.js change
+2017-04-28 16:28:52,485 INFO 29330 [Leader:Watcher] socket connected, port: 60819
+2017-04-28 16:29:12,254 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:29:12,457 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/user.js change
+2017-04-28 16:29:13,077 INFO 29330 [Leader:Watcher] socket connected, port: 60830
+2017-04-28 16:29:34,072 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:29:34,275 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 16:29:34,886 INFO 29330 [Leader:Watcher] socket connected, port: 60839
+2017-04-28 16:29:42,844 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:29:43,048 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/user.js change
+2017-04-28 16:29:43,702 INFO 29330 [Leader:Watcher] socket connected, port: 60849
+2017-04-28 16:31:07,201 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:31:07,406 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/plugin.js change
+2017-04-28 16:31:36,687 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:31:36,891 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/plugin.js change
+2017-04-28 16:31:38,779 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:31:38,984 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/plugin.js change
+2017-04-28 16:32:03,826 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:32:04,028 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/plugin.js change
+2017-04-28 16:32:04,666 INFO 29330 [Leader:Watcher] socket connected, port: 60888
+2017-04-28 16:32:05,554 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:32:05,759 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/plugin.js change
+2017-04-28 16:32:06,369 INFO 29330 [Leader:Watcher] socket connected, port: 60894
+2017-04-28 16:32:06,415 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:32:06,620 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/plugin.js change
+2017-04-28 16:32:07,273 INFO 29330 [Leader:Watcher] socket connected, port: 60897
+2017-04-28 16:34:24,394 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:34:24,597 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-04-28 16:34:25,226 INFO 29330 [Leader:Watcher] socket connected, port: 60926
+2017-04-28 16:34:44,814 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 16:34:45,016 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 16:34:45,683 INFO 29330 [Leader:Watcher] socket connected, port: 60937
