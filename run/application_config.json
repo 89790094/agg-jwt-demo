@@ -30,6 +30,7 @@
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-jsonp@1.0.0@egg-jsonp/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-view@1.1.0@egg-view/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-jwt@1.1.0@egg-jwt/config/locales",
+        "/Users/liudong/Documents/website/8jk/node_modules/._egg-validate@1.0.0@egg-validate/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/locales",
         "/Users/liudong/Documents/website/8jk/config/locales"
       ],
@@ -421,6 +422,17 @@
       "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-jwt@1.1.0@egg-jwt",
       "version": "1.1.0"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
+      "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-validate@1.0.0@egg-validate",
+      "version": "1.0.0"
     }
   }
 }

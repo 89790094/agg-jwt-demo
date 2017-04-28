@@ -572,3 +572,17 @@
 2017-04-28 16:37:19,173 INFO 31156 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
 2017-04-28 16:37:19,194 INFO 31156 [egg-watcher:app] watcher start success
 2017-04-28 16:37:19,203 INFO 31156 [Follower:Watcher] register to channel: Watcher success
+2017-04-28 16:48:30,182 INFO 31387 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-04-28 16:48:30,223 INFO 31387 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-28 16:48:30,224 INFO 31387 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-28 16:48:30,266 INFO 31387 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-04-28 16:48:30,268 INFO 31387 [egg-security] use csrf middleware
+2017-04-28 16:48:30,269 INFO 31387 [egg-security] use methodnoallow middleware
+2017-04-28 16:48:30,269 INFO 31387 [egg-security] use noopen middleware
+2017-04-28 16:48:30,270 INFO 31387 [egg-security] use nosniff middleware
+2017-04-28 16:48:30,270 INFO 31387 [egg-security] use xssProtection middleware
+2017-04-28 16:48:30,271 INFO 31387 [egg-security] use xframe middleware
+2017-04-28 16:48:30,271 INFO 31387 [egg-security] compose 6 middlewares into one security middleware
+2017-04-28 16:48:30,342 INFO 31387 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-28 16:48:30,347 INFO 31387 [egg-watcher:app] watcher start success
+2017-04-28 16:48:30,361 INFO 31387 [Follower:Watcher] register to channel: Watcher success
