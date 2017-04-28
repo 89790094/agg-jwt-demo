@@ -1,0 +1,19 @@
+{
+  "name": "8jk",
+  "version": "1.0.0",
+  "description": "8jk ---- # Egg.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/89790094/8jk.git"
+  },
+  "author": "liudong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/89790094/8jk/issues"
+  },
+  "homepage": "https://github.com/89790094/8jk#readme"
+}
