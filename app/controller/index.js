@@ -4,7 +4,6 @@ module.exports = app => {
       const { ctx, app } = this;
       ctx.body = 'System Api';
     }
-
   }
   return IndexController;
 };

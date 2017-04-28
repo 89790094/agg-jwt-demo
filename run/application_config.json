@@ -242,7 +242,7 @@
       "securities"
     ],
     "workerStartTimeout": 600000,
-    "secret": "<String len: 0>",
+    "secret": "<String len: 11>",
     "coreMiddlewares": [
       "meta",
       "siteFile",

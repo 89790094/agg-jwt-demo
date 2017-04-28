@@ -27,7 +27,7 @@
       * Sequelize/(mysql, mariadb, postgres, mssql)
         > sequelize:{enable: true,package: 'egg-sequelize'}
       * Schedule
-        > schedule:{package: 'egg-schedule'}
+        > schedule:{enable: true,package: 'egg-schedule'}
       * Jwt
         > jwt:{enable: true,package: 'egg-jwt'}
       * Redis
