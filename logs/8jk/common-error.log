@@ -1,0 +1,45 @@
+2017-04-28 14:48:39,224 ERROR 29331 [-/127.0.0.1/-/5ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/lib/application.js:181:15)
+    at Object.get cookies [as cookies] (/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/app/extend/context.js:17:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:76:32)
+    at Object.ensureCsrfSecret (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:87:13)
+    at Object.csrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/lib/middlewares/csrf.js:13:10)
+    at next (native)
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._koa-compose@2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+
+pid: 29331
+hostname: liud.local
+
+2017-04-28 14:48:39,451 ERROR 29331 [-/127.0.0.1/-/2ms GET /apple-touch-icon-precomposed.png] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/lib/application.js:181:15)
+    at Object.get cookies [as cookies] (/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/app/extend/context.js:17:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:76:32)
+    at Object.ensureCsrfSecret (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:87:13)
+    at Object.csrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/lib/middlewares/csrf.js:13:10)
+    at next (native)
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._koa-compose@2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+
+pid: 29331
+hostname: liud.local
+
+2017-04-28 14:48:39,469 ERROR 29331 [-/127.0.0.1/-/1ms GET /apple-touch-icon.png] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/lib/application.js:181:15)
+    at Object.get cookies [as cookies] (/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/app/extend/context.js:17:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:76:32)
+    at Object.ensureCsrfSecret (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:87:13)
+    at Object.csrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/lib/middlewares/csrf.js:13:10)
+    at next (native)
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._koa-compose@2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+
+pid: 29331
+hostname: liud.local
+
