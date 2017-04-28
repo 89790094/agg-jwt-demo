@@ -55,3 +55,6 @@
 2017-04-28 14:56:58,575 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
 2017-04-28 14:56:58,777 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
 2017-04-28 14:56:59,456 INFO 29330 [Leader:Watcher] socket connected, port: 49238
+2017-04-28 15:58:53,758 INFO 29330 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-04-28 15:58:53,961 WARN 29330 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/index.js change
+2017-04-28 15:58:54,703 INFO 29330 [Leader:Watcher] socket connected, port: 57791

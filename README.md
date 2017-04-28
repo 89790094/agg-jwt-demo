@@ -30,7 +30,8 @@
         > schedule:{package: 'egg-schedule'}
       * Jwt
         > jwt:{enable: true,package: 'egg-jwt'}
-        
+      * Redis
+        > redis:{enable: true,package: 'egg-redis'}
   3. config/config.default.js
 
     - Add Cookies Keys -> keys:'your key'
