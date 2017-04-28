@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/89790094/8jk/issues"
   },
-  "homepage": "https://github.com/89790094/8jk#readme"
+  "homepage": "https://github.com/89790094/8jk#readme",
+  "dependencies": {
+    "egg": "^1.1.0"
+  }
 }
