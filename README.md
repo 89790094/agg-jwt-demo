@@ -12,11 +12,14 @@
 	2. Open Brower -> http://localhost:7001
 ### Config
   1. package.json
+
     - Edit Port -> package.json:  "scripts": {"dev": "egg-bin dev --port PORT"}
     - 
   2. config/plugin.js
+
     - Enable Plugin -> 
   3. config/config.default.js
+  
     - Add Cookies Keys -> keys:'your key'
     - 
 ### Deploy
