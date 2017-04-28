@@ -4,7 +4,7 @@
   "description": "8jk ---- # Egg.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "egg-bin dev"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/89790094/8jk#readme",
   "dependencies": {
     "egg": "^1.1.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^3.3.1"
   }
 }
