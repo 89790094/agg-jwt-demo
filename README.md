@@ -17,7 +17,7 @@
     - 
   2. config/plugin.js
     - Install Plugin
-      * cnpm i PlugName --save
+      * cnpm i PlugName --save/auto update to package.json
     - Enable Plugin
       * Mongoose/mongodb
         > mysql: {enable: true,package: 'egg-mongoose'}
