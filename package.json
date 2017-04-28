@@ -1,7 +1,7 @@
 {
   "name": "8jk",
   "version": "1.0.0",
-  "description": "8jk ---- # Egg.js",
+  "description": "8jk",
   "main": "index.js",
   "scripts": {
     "dev": "egg-bin dev"
