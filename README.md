@@ -17,9 +17,14 @@
     - 
   2. config/plugin.js
 
-    - Enable Plugin -> 
+    - Enable Plugin
+      * Mongoose/mongodb
+        > mysql: {enable: true,package: 'egg-mongoose'}
+      * Mysql
+        > mysql: {enable: true,package: 'egg-mysql'}
+      * 
   3. config/config.default.js
-  
+
     - Add Cookies Keys -> keys:'your key'
     - 
 ### Deploy
