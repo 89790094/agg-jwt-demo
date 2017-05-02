@@ -1,5 +1,6 @@
 module.exports = app => {
-  app.get('/','index.index');
-  app.get('/token/','token.index');
-  
+  app.get('/api/v1/','v1.index.index');
+  app.get('/token/:uname/:pwd','token.index');
+  //app.resources('','','');
+
 };

@@ -656,3 +656,187 @@
 2017-04-28 17:31:19,018 INFO 32002 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
 2017-04-28 17:31:19,025 INFO 32002 [egg-watcher:app] watcher start success
 2017-04-28 17:31:19,031 INFO 32002 [Follower:Watcher] register to channel: Watcher success
+2017-04-28 18:02:57,453 INFO 32315 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-04-28 18:02:57,493 INFO 32315 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-28 18:02:57,493 INFO 32315 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-28 18:02:57,541 INFO 32315 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-04-28 18:02:57,543 INFO 32315 [egg-security] use csrf middleware
+2017-04-28 18:02:57,544 INFO 32315 [egg-security] use methodnoallow middleware
+2017-04-28 18:02:57,545 INFO 32315 [egg-security] use noopen middleware
+2017-04-28 18:02:57,545 INFO 32315 [egg-security] use nosniff middleware
+2017-04-28 18:02:57,546 INFO 32315 [egg-security] use xssProtection middleware
+2017-04-28 18:02:57,547 INFO 32315 [egg-security] use xframe middleware
+2017-04-28 18:02:57,547 INFO 32315 [egg-security] compose 6 middlewares into one security middleware
+2017-04-28 18:02:57,577 INFO 32315 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-28 18:02:57,581 INFO 32315 [egg-watcher:app] watcher start success
+2017-04-28 18:02:57,588 INFO 32315 [Follower:Watcher] register to channel: Watcher success
+2017-04-28 18:03:02,600 INFO 32324 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-04-28 18:03:02,639 INFO 32324 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-28 18:03:02,639 INFO 32324 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-28 18:03:02,673 INFO 32324 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-04-28 18:03:02,675 INFO 32324 [egg-security] use csrf middleware
+2017-04-28 18:03:02,676 INFO 32324 [egg-security] use methodnoallow middleware
+2017-04-28 18:03:02,677 INFO 32324 [egg-security] use noopen middleware
+2017-04-28 18:03:02,677 INFO 32324 [egg-security] use nosniff middleware
+2017-04-28 18:03:02,677 INFO 32324 [egg-security] use xssProtection middleware
+2017-04-28 18:03:02,677 INFO 32324 [egg-security] use xframe middleware
+2017-04-28 18:03:02,678 INFO 32324 [egg-security] compose 6 middlewares into one security middleware
+2017-04-28 18:03:02,705 INFO 32324 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-28 18:03:02,711 INFO 32324 [egg-watcher:app] watcher start success
+2017-04-28 18:03:02,717 INFO 32324 [Follower:Watcher] register to channel: Watcher success
+2017-04-28 18:09:25,863 INFO 32370 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-04-28 18:09:25,904 INFO 32370 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-04-28 18:09:25,905 INFO 32370 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-04-28 18:09:25,942 INFO 32370 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-04-28 18:09:25,944 INFO 32370 [egg-security] use csrf middleware
+2017-04-28 18:09:25,945 INFO 32370 [egg-security] use methodnoallow middleware
+2017-04-28 18:09:25,946 INFO 32370 [egg-security] use noopen middleware
+2017-04-28 18:09:25,946 INFO 32370 [egg-security] use nosniff middleware
+2017-04-28 18:09:25,947 INFO 32370 [egg-security] use xssProtection middleware
+2017-04-28 18:09:25,948 INFO 32370 [egg-security] use xframe middleware
+2017-04-28 18:09:25,948 INFO 32370 [egg-security] compose 6 middlewares into one security middleware
+2017-04-28 18:09:25,981 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-28 18:09:25,984 INFO 32370 [egg-watcher:app] watcher start success
+2017-04-28 18:09:25,988 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-28 22:13:03,830 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-28 22:13:03,844 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-28 22:13:03,861 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-28 22:13:03,913 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-28 23:13:22,032 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-28 23:13:22,039 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-28 23:13:22,090 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-28 23:13:22,093 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-29 00:13:41,615 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-29 00:13:42,130 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-29 00:13:42,146 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-29 00:13:42,152 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-29 01:14:00,599 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-29 01:14:00,601 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-29 01:14:01,029 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-29 01:14:01,057 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-29 02:14:19,033 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-29 02:14:19,038 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-29 02:14:19,053 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-29 03:14:36,874 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-29 03:14:36,877 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-29 03:14:36,885 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-29 03:14:36,889 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-29 04:14:54,952 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-29 04:14:54,955 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-29 04:14:54,978 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-29 04:14:54,982 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-29 05:15:12,570 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-29 05:15:12,576 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-29 05:15:12,994 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-29 05:15:13,066 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-04-29 06:13:25,885 WARN 32370 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-04-29 06:13:25,918 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-04-29 06:13:25,927 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-04-29 06:13:25,941 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 08:27:38,190 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-05-02 08:27:38,207 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 08:27:38,351 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 08:59:05,918 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-05-02 08:59:05,919 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 08:59:05,923 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:04:21,842 WARN 32370 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-05-02 09:04:21,843 INFO 32370 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:04:21,847 INFO 32370 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:21:35,686 INFO 33080 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-05-02 09:21:35,731 INFO 33080 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-02 09:21:35,732 INFO 33080 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-02 09:21:35,785 INFO 33080 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-05-02 09:21:35,787 INFO 33080 [egg-security] use csrf middleware
+2017-05-02 09:21:35,788 INFO 33080 [egg-security] use methodnoallow middleware
+2017-05-02 09:21:35,789 INFO 33080 [egg-security] use noopen middleware
+2017-05-02 09:21:35,790 INFO 33080 [egg-security] use nosniff middleware
+2017-05-02 09:21:35,790 INFO 33080 [egg-security] use xssProtection middleware
+2017-05-02 09:21:35,791 INFO 33080 [egg-security] use xframe middleware
+2017-05-02 09:21:35,791 INFO 33080 [egg-security] compose 6 middlewares into one security middleware
+2017-05-02 09:21:35,816 INFO 33080 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:21:35,820 INFO 33080 [egg-watcher:app] watcher start success
+2017-05-02 09:21:35,825 INFO 33080 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:24:48,107 INFO 33178 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-05-02 09:24:48,153 INFO 33178 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-02 09:24:48,153 INFO 33178 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-02 09:24:48,199 INFO 33178 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-05-02 09:24:48,202 INFO 33178 [egg-security] use csrf middleware
+2017-05-02 09:24:48,202 INFO 33178 [egg-security] use methodnoallow middleware
+2017-05-02 09:24:48,203 INFO 33178 [egg-security] use noopen middleware
+2017-05-02 09:24:48,203 INFO 33178 [egg-security] use nosniff middleware
+2017-05-02 09:24:48,204 INFO 33178 [egg-security] use xssProtection middleware
+2017-05-02 09:24:48,204 INFO 33178 [egg-security] use xframe middleware
+2017-05-02 09:24:48,204 INFO 33178 [egg-security] compose 6 middlewares into one security middleware
+2017-05-02 09:24:48,239 INFO 33178 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:24:48,244 INFO 33178 [egg-watcher:app] watcher start success
+2017-05-02 09:24:48,247 INFO 33178 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:24:55,384 INFO 33188 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-05-02 09:24:55,422 INFO 33188 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-02 09:24:55,422 INFO 33188 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-02 09:24:55,454 INFO 33188 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-05-02 09:24:55,456 INFO 33188 [egg-security] use csrf middleware
+2017-05-02 09:24:55,457 INFO 33188 [egg-security] use methodnoallow middleware
+2017-05-02 09:24:55,457 INFO 33188 [egg-security] use noopen middleware
+2017-05-02 09:24:55,457 INFO 33188 [egg-security] use nosniff middleware
+2017-05-02 09:24:55,458 INFO 33188 [egg-security] use xssProtection middleware
+2017-05-02 09:24:55,458 INFO 33188 [egg-security] use xframe middleware
+2017-05-02 09:24:55,458 INFO 33188 [egg-security] compose 6 middlewares into one security middleware
+2017-05-02 09:24:55,481 INFO 33188 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:24:55,487 INFO 33188 [egg-watcher:app] watcher start success
+2017-05-02 09:24:55,495 INFO 33188 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:24:58,258 INFO 33199 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-05-02 09:24:58,296 INFO 33199 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-02 09:24:58,296 INFO 33199 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-02 09:24:58,330 INFO 33199 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-05-02 09:24:58,331 INFO 33199 [egg-security] use csrf middleware
+2017-05-02 09:24:58,332 INFO 33199 [egg-security] use methodnoallow middleware
+2017-05-02 09:24:58,332 INFO 33199 [egg-security] use noopen middleware
+2017-05-02 09:24:58,333 INFO 33199 [egg-security] use nosniff middleware
+2017-05-02 09:24:58,333 INFO 33199 [egg-security] use xssProtection middleware
+2017-05-02 09:24:58,333 INFO 33199 [egg-security] use xframe middleware
+2017-05-02 09:24:58,333 INFO 33199 [egg-security] compose 6 middlewares into one security middleware
+2017-05-02 09:24:58,367 INFO 33199 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:24:58,373 INFO 33199 [egg-watcher:app] watcher start success
+2017-05-02 09:24:58,379 INFO 33199 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:26:47,679 INFO 33245 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-05-02 09:26:47,722 INFO 33245 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-02 09:26:47,722 INFO 33245 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-02 09:26:47,762 INFO 33245 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-05-02 09:26:47,764 INFO 33245 [egg-security] use csrf middleware
+2017-05-02 09:26:47,765 INFO 33245 [egg-security] use methodnoallow middleware
+2017-05-02 09:26:47,765 INFO 33245 [egg-security] use noopen middleware
+2017-05-02 09:26:47,766 INFO 33245 [egg-security] use nosniff middleware
+2017-05-02 09:26:47,766 INFO 33245 [egg-security] use xssProtection middleware
+2017-05-02 09:26:47,767 INFO 33245 [egg-security] use xframe middleware
+2017-05-02 09:26:47,767 INFO 33245 [egg-security] compose 6 middlewares into one security middleware
+2017-05-02 09:26:47,795 INFO 33245 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:26:47,801 INFO 33245 [egg-watcher:app] watcher start success
+2017-05-02 09:26:47,805 INFO 33245 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:26:50,744 INFO 33254 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-05-02 09:26:50,787 INFO 33254 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-02 09:26:50,787 INFO 33254 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-02 09:26:50,818 INFO 33254 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-05-02 09:26:50,821 INFO 33254 [egg-security] use csrf middleware
+2017-05-02 09:26:50,822 INFO 33254 [egg-security] use methodnoallow middleware
+2017-05-02 09:26:50,822 INFO 33254 [egg-security] use noopen middleware
+2017-05-02 09:26:50,823 INFO 33254 [egg-security] use nosniff middleware
+2017-05-02 09:26:50,823 INFO 33254 [egg-security] use xssProtection middleware
+2017-05-02 09:26:50,823 INFO 33254 [egg-security] use xframe middleware
+2017-05-02 09:26:50,823 INFO 33254 [egg-security] compose 6 middlewares into one security middleware
+2017-05-02 09:26:50,852 INFO 33254 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:26:50,858 INFO 33254 [egg-watcher:app] watcher start success
+2017-05-02 09:26:50,864 INFO 33254 [Follower:Watcher] register to channel: Watcher success
+2017-05-02 09:26:56,489 INFO 33263 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"application"}
+2017-05-02 09:26:56,526 INFO 33263 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
+2017-05-02 09:26:56,526 INFO 33263 [egg-schedule]: register schedule egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-02 09:26:56,560 INFO 33263 [egg-static] starting static serve /public/ -> /Users/liudong/Documents/website/8jk/app/public
+2017-05-02 09:26:56,562 INFO 33263 [egg-security] use csrf middleware
+2017-05-02 09:26:56,563 INFO 33263 [egg-security] use methodnoallow middleware
+2017-05-02 09:26:56,563 INFO 33263 [egg-security] use noopen middleware
+2017-05-02 09:26:56,563 INFO 33263 [egg-security] use nosniff middleware
+2017-05-02 09:26:56,563 INFO 33263 [egg-security] use xssProtection middleware
+2017-05-02 09:26:56,564 INFO 33263 [egg-security] use xframe middleware
+2017-05-02 09:26:56,564 INFO 33263 [egg-security] compose 6 middlewares into one security middleware
+2017-05-02 09:26:56,594 INFO 33263 [ClusterClient:Watcher] gives up seizing port 63357, and serves as follower client.
+2017-05-02 09:26:56,606 INFO 33263 [egg-watcher:app] watcher start success
+2017-05-02 09:26:56,612 INFO 33263 [Follower:Watcher] register to channel: Watcher success

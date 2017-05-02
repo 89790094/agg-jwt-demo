@@ -169,7 +169,12 @@
       },
       "homepage": "https://github.com/89790094/8jk#readme",
       "dependencies": {
-        "egg": "^1.1.0"
+        "egg": "^1.1.0",
+        "egg-jwt": "^1.1.0",
+        "egg-mongoose": "^1.1.1",
+        "egg-redis": "^1.0.1",
+        "egg-schedule": "^2.3.0",
+        "egg-validate": "^1.0.0"
       },
       "devDependencies": {
         "egg-bin": "^3.3.1"
