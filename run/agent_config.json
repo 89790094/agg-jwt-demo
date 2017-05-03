@@ -42,7 +42,7 @@
       "csrf": {
         "enable": true,
         "useSession": false,
-        "ignoreJSON": false,
+        "ignoreJSON": true,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
@@ -112,9 +112,29 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "jwt": {
+      "secret": "<String len: 13>"
+    },
+    "mongoose": {
+      "url": "mongodb://jwt:token@192.168.3.10:27017/egg_jwt",
+      "options": {
+        "db": {
+          "forceServerObjectId": false,
+          "w": 1
+        },
+        "auth": {},
+        "server": {
+          "socketOptions": {},
+          "auto_reconnect": true
+        },
+        "replset": {
+          "socketOptions": {}
+        }
+      }
+    },
     "env": "local",
     "name": "8jk",
-    "keys": "<String len: 0>",
+    "keys": "<String len: 6>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
@@ -122,7 +142,7 @@
     "pkg": {
       "name": "8jk",
       "version": "1.0.0",
-      "description": "8jk ---- # Egg.js",
+      "description": "8jk",
       "main": "index.js",
       "scripts": {
         "dev": "egg-bin dev"
@@ -138,7 +158,12 @@
       },
       "homepage": "https://github.com/89790094/8jk#readme",
       "dependencies": {
-        "egg": "^1.1.0"
+        "egg": "^1.1.0",
+        "egg-jwt": "^1.1.0",
+        "egg-mongoose": "^1.1.1",
+        "egg-redis": "^1.0.1",
+        "egg-schedule": "^2.3.0",
+        "egg-validate": "^1.0.0"
       },
       "devDependencies": {
         "egg-bin": "^3.3.1"
@@ -207,6 +232,7 @@
       "bodyParser"
     ],
     "workerStartTimeout": 600000,
+    "secret": "<String len: 11>",
     "coreMiddlewares": [
       "meta",
       "siteFile",
@@ -358,6 +384,39 @@
       "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-view@1.1.0@egg-view",
       "version": "1.1.0"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
+      "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-jwt@1.1.0@egg-jwt",
+      "version": "1.1.0"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
+      "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-validate@1.0.0@egg-validate",
+      "version": "1.0.0"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
+      "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-mongoose@1.1.1@egg-mongoose",
+      "version": "1.1.1"
     }
   }
 }
