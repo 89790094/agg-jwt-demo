@@ -113,20 +113,21 @@
       "mapping": {}
     },
     "jwt": {
-      "secret": "<String len: 13>"
+      "secret": "<String len: 11>"
     },
     "mongoose": {
       "url": "mongodb://jwt:token@192.168.3.10:27017/egg_jwt",
       "options": {
+        "server": {
+          "auto_reconnect": true,
+          "poolSize": 10,
+          "socketOptions": {}
+        },
         "db": {
           "forceServerObjectId": false,
           "w": 1
         },
         "auth": {},
-        "server": {
-          "socketOptions": {},
-          "auto_reconnect": true
-        },
         "replset": {
           "socketOptions": {}
         }
@@ -158,12 +159,14 @@
       },
       "homepage": "https://github.com/89790094/8jk#readme",
       "dependencies": {
+        "crypto": "^0.0.3",
         "egg": "^1.1.0",
         "egg-jwt": "^1.1.0",
         "egg-mongoose": "^1.1.1",
         "egg-redis": "^1.0.1",
         "egg-schedule": "^2.3.0",
-        "egg-validate": "^1.0.0"
+        "egg-validate": "^1.0.0",
+        "moment": "^2.18.1"
       },
       "devDependencies": {
         "egg-bin": "^3.3.1"
@@ -232,15 +235,24 @@
       "bodyParser"
     ],
     "workerStartTimeout": 600000,
-    "secret": "<String len: 11>",
+    "middleware": [
+      "token"
+    ],
+    "token": {
+      "match": "/api/v1"
+    },
     "coreMiddlewares": [
       "meta",
       "siteFile",
       "notfound",
       "bodyParser"
     ],
-    "appMiddlewares": [],
-    "appMiddleware": []
+    "appMiddlewares": [
+      "token"
+    ],
+    "appMiddleware": [
+      "token"
+    ]
   },
   "plugins": {
     "onerror": {

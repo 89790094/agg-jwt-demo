@@ -1,0 +1,585 @@
+2017-05-04 09:13:23,732 ERROR 43870 [-/127.0.0.1/-/10ms GET /login/18109316549/liudong] nodejs.MongoError: Topology was destroyed
+    at nextFunction (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/cursor.js:692:3)
+    at fetchDocs (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/cursor.js:856:10)
+    at toArray (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/cursor.js:883:3)
+    at Cursor.toArray (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/cursor.js:836:44)
+    at /Users/liudong/Documents/website/8jk/node_modules/._mquery@2.3.0@mquery/lib/collection/node.js:29:12
+    at handleCallback (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/utils.js:120:56)
+    at Collection.find (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/collection.js:385:44)
+    at NativeCollection.(anonymous function) [as find] (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/drivers/node-mongodb-native/collection.js:126:28)
+    at NodeCollection.find (/Users/liudong/Documents/website/8jk/node_modules/._mquery@2.3.0@mquery/lib/collection/node.js:26:19)
+    at Query.find (/Users/liudong/Documents/website/8jk/node_modules/._mquery@2.3.0@mquery/lib/mquery.js:1730:20)
+    at Query._find (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/query.js:1135:26)
+    at /Users/liudong/Documents/website/8jk/node_modules/._kareem@1.4.0@kareem/index.js:257:8
+    at /Users/liudong/Documents/website/8jk/node_modules/._kareem@1.4.0@kareem/index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'MongoError'
+message: 'Topology was destroyed'
+pid: 43870
+hostname: liud.local
+
+2017-05-04 09:13:28,604 ERROR 43870 [-/127.0.0.1/-/3ms GET /login/18109316549/liudong] nodejs.MongoError: Topology was destroyed
+    at nextFunction (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/cursor.js:540:25)
+    at Cursor.next [as _next] (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/cursor.js:692:3)
+    at fetchDocs (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/cursor.js:856:10)
+    at toArray (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/cursor.js:883:3)
+    at Cursor.toArray (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/cursor.js:836:44)
+    at /Users/liudong/Documents/website/8jk/node_modules/._mquery@2.3.0@mquery/lib/collection/node.js:29:12
+    at handleCallback (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/utils.js:120:56)
+    at Collection.find (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/collection.js:385:44)
+    at NativeCollection.(anonymous function) [as find] (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/drivers/node-mongodb-native/collection.js:126:28)
+    at NodeCollection.find (/Users/liudong/Documents/website/8jk/node_modules/._mquery@2.3.0@mquery/lib/collection/node.js:26:19)
+    at Query.find (/Users/liudong/Documents/website/8jk/node_modules/._mquery@2.3.0@mquery/lib/mquery.js:1730:20)
+    at Query._find (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/query.js:1135:26)
+    at /Users/liudong/Documents/website/8jk/node_modules/._kareem@1.4.0@kareem/index.js:257:8
+    at /Users/liudong/Documents/website/8jk/node_modules/._kareem@1.4.0@kareem/index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'MongoError'
+message: 'Topology was destroyed'
+pid: 43870
+hostname: liud.local
+
+2017-05-04 09:31:16,307 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 63002ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 10:30:08,410 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 2961887ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 11:00:29,223 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 1340638ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 11:32:14,016 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 1114497ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 11:38:34,442 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 43200ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 11:50:03,476 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 528965ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 12:05:52,432 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 218678ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 14:04:33,650 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 5513575ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 14:53:26,865 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 2162939ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 15:12:42,011 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 965075ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 15:17:52,173 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 110083ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 17:01:14,628 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 2760310ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 18:04:41,666 ERROR 46661 [-/127.0.0.1/-/11ms GET /] nodejs.TypeError: Cannot read property 'get' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js:3:71)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+
+pid: 46661
+hostname: liud.local
+
+2017-05-04 20:36:45,007 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3599158ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 21:21:19,149 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 2664124ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 22:21:35,556 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3606383ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-04 23:21:54,079 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3608144ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 00:22:11,568 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3607304ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 01:22:30,146 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3606957ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 02:22:48,174 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3607690ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 03:23:07,126 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3608133ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 04:23:26,347 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3608745ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 05:23:44,971 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3608240ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 06:21:59,178 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 3483301ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 08:10:02,981 ERROR 44595 nodejs.ClusterClientNoResponseError: client no response in 6473837ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 44595
+hostname: liud.local
+
+2017-05-05 10:29:31,765 ERROR 49017 [-/127.0.0.1/-/26ms GET /login/18109316549/liudong] nodejs.JsonWebTokenError: secret or public key must be provided
+    at GeneratorFunction.JWT.verify (/Users/liudong/Documents/website/8jk/node_modules/._jsonwebtoken@5.7.0@jsonwebtoken/index.js:180:17)
+    at LoginController.index (/Users/liudong/Documents/website/8jk/app/controller/login.js:12:27)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at newTickHandler (/Users/liudong/Documents/website/8jk/node_modules/._mpromise@0.5.5@mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'JsonWebTokenError'
+message: 'secret or public key must be provided'
+pid: 49017
+hostname: liud.local
+
+2017-05-05 11:22:35,808 ERROR 49541 [-/127.0.0.1/-/27ms POST /login] nodejs.ReferenceError: token is not defined
+    at LoginController.index (/Users/liudong/Documents/website/8jk/app/controller/login.js:15:34)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at newTickHandler (/Users/liudong/Documents/website/8jk/node_modules/._mpromise@0.5.5@mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+pid: 49541
+hostname: liud.local
+
+2017-05-05 12:09:47,868 ERROR 48905 nodejs.ClusterClientNoResponseError: client no response in 796964ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 48905
+hostname: liud.local
+
+2017-05-05 12:25:05,223 ERROR 48905 nodejs.ClusterClientNoResponseError: client no response in 156928ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 48905
+hostname: liud.local
+
+2017-05-05 13:35:27,465 ERROR 48905 nodejs.ClusterClientNoResponseError: client no response in 3601966ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 48905
+hostname: liud.local
+
+2017-05-05 14:36:19,736 ERROR 48905 nodejs.ClusterClientNoResponseError: client no response in 3602229ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 48905
+hostname: liud.local
+
+2017-05-05 15:37:02,027 ERROR 48905 nodejs.ClusterClientNoResponseError: client no response in 3602267ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 48905
+hostname: liud.local
+
+2017-05-05 15:39:34,082 ERROR 48905 nodejs.ClusterClientNoResponseError: client no response in 102013ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 48905
+hostname: liud.local
+
+2017-05-05 21:03:29,022 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3599973ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-05 21:16:47,198 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 788162ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-05 22:17:03,892 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3606671ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-05 23:17:21,940 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3608003ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 00:17:41,314 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3608458ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 00:17:42,014 ERROR 52187 nodejs.DisconnectedError: [egg-mongoose]Ran out of retries trying to reconnect to "192.168.3.10:27017". Try setting `server.reconnectTries` and `server.reconnectInterval` to something higher.
+    at MongooseError.DisconnectedError (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/error/disconnected.js:21:11)
+    at Server.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/drivers/node-mongodb-native/connection.js:64:31)
+    at emitOne (events.js:101:20)
+    at Server.emit (events.js:188:7)
+    at Pool.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/topologies/server.js:319:16)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/pool.js:309:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+message: '[egg-mongoose]Ran out of retries trying to reconnect to "192.168.3.10:27017". Try setting `server.reconnectTries` and `server.reconnectInterval` to something higher.'
+name: 'DisconnectedError'
+pid: 52187
+hostname: liud.local
+
+2017-05-06 01:18:00,137 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3607878ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 02:18:18,828 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3608759ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 03:18:38,091 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3608412ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 04:18:56,852 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3608784ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 05:19:16,053 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3608208ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 06:17:30,141 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 3483554ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 07:55:28,612 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 5868234ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 08:08:12,171 ERROR 51516 nodejs.ClusterClientNoResponseError: client no response in 692637ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 08:08:18,101 ERROR 51516 nodejs.DisconnectedError: [egg-mongoose]Ran out of retries trying to reconnect to "192.168.3.10:27017". Try setting `server.reconnectTries` and `server.reconnectInterval` to something higher.
+    at MongooseError.DisconnectedError (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/error/disconnected.js:21:11)
+    at Server.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/drivers/node-mongodb-native/connection.js:64:31)
+    at emitOne (events.js:101:20)
+    at Server.emit (events.js:188:7)
+    at Pool.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/topologies/server.js:319:16)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:188:7)
+    at Connection.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/pool.js:309:16)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/connection.js:177:49)
+    at Socket.g (events.js:291:16)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+message: '[egg-mongoose]Ran out of retries trying to reconnect to "192.168.3.10:27017". Try setting `server.reconnectTries` and `server.reconnectInterval` to something higher.'
+name: 'DisconnectedError'
+pid: 51516
+hostname: liud.local
+
+2017-05-06 11:09:53,816 ERROR 55172 [-/127.0.0.1/-/4ms GET /] nodejs.ReferenceError: crypto is not defined
+    at IndexController.index (/Users/liudong/Documents/website/8jk/app/controller/v1/index.js:5:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+
+pid: 55172
+hostname: liud.local
+
+2017-05-06 11:09:54,308 ERROR 55172 [-/127.0.0.1/-/2ms GET /] nodejs.ReferenceError: crypto is not defined
+    at IndexController.index (/Users/liudong/Documents/website/8jk/app/controller/v1/index.js:5:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+
+pid: 55172
+hostname: liud.local
+
+2017-05-06 11:47:39,723 ERROR 55777 [-/127.0.0.1/-/11ms GET /] nodejs.TypeError: this.user is not a function
+    at IndexController.index (/Users/liudong/Documents/website/8jk/app/controller/v1/index.js:6:44)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+
+pid: 55777
+hostname: liud.local
+

@@ -1,9 +1,9 @@
 module.exports = app => {
-  class UserController extends app.Controller {
+  class MemberController extends app.Controller {
     * index() {
       const { ctx, app } = this;
       ctx.body = 'User Api';
     }
   }
-  return UserController;
+  return MemberController;
 };

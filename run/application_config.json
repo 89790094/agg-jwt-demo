@@ -142,7 +142,7 @@
       "mapping": {}
     },
     "jwt": {
-      "secret": "<String len: 13>"
+      "secret": "<String len: 11>"
     },
     "mongoose": {
       "url": "mongodb://jwt:token@192.168.3.10:27017/egg_jwt",
@@ -188,12 +188,14 @@
       },
       "homepage": "https://github.com/89790094/8jk#readme",
       "dependencies": {
-        "egg": "^1.1.0",
+        "crypto": "^0.0.3",
+        "egg": "^1.2.1",
         "egg-jwt": "^1.1.0",
         "egg-mongoose": "^1.1.1",
         "egg-redis": "^1.0.1",
         "egg-schedule": "^2.3.0",
-        "egg-validate": "^1.0.0"
+        "egg-validate": "^1.0.0",
+        "moment": "^2.18.1"
       },
       "devDependencies": {
         "egg-bin": "^3.3.1"
@@ -267,7 +269,12 @@
       "securities"
     ],
     "workerStartTimeout": 600000,
-    "secret": "<String len: 11>",
+    "middleware": [
+      "token"
+    ],
+    "token": {
+      "match": "/api/v1"
+    },
     "coreMiddlewares": [
       "meta",
       "siteFile",
@@ -278,8 +285,12 @@
       "i18n",
       "securities"
     ],
-    "appMiddlewares": [],
-    "appMiddleware": [],
+    "appMiddlewares": [
+      "token"
+    ],
+    "appMiddleware": [
+      "token"
+    ],
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",

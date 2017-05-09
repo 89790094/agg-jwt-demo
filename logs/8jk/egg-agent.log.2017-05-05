@@ -1,0 +1,426 @@
+2017-05-04 08:19:51,226 INFO 35835 [egg-logrotator] agent logger reload: got log-reload message
+2017-05-04 09:14:54,895 INFO 35835 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 09:14:55,100 WARN 35835 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-04 09:14:56,295 INFO 35835 [Leader:Watcher] socket connected, port: 60447
+2017-05-04 09:14:59,524 INFO 35835 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 09:14:59,730 WARN 35835 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-04 09:15:00,505 INFO 35835 [Leader:Watcher] socket connected, port: 60459
+2017-05-04 09:15:11,586 INFO 44595 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-04 09:15:11,604 INFO 44595 [ClusterClient:Watcher] subscribe ["/Users/liudong/Documents/website/8jk/app","/Users/liudong/Documents/website/8jk/config","/Users/liudong/Documents/website/8jk/mocks","/Users/liudong/Documents/website/8jk/mocks_proxy"]
+2017-05-04 09:15:11,860 INFO 44595 [egg-mongoose] connecting mongodb://jwt:token@192.168.3.10:27017/egg_jwt
+2017-05-04 09:15:11,895 INFO 44595 [egg-mongoose] starting...
+2017-05-04 09:15:11,909 INFO 44595 [ClusterClient:Watcher] has seized port 60472, and serves as leader client.
+2017-05-04 09:15:11,913 INFO 44595 [egg-watcher:agent] watcher start success
+2017-05-04 09:15:12,058 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt connected successfully
+2017-05-04 09:15:12,060 INFO 44595 [egg-mongoose] start successfully and server status is ok
+2017-05-04 09:15:12,980 INFO 44595 [Leader:Watcher] socket connected, port: 60477
+2017-05-04 09:31:16,310 INFO 44595 [Leader:Watcher] socket connected, port: 60903
+2017-05-04 09:31:20,907 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 10:30:06,599 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 10:30:08,412 INFO 44595 [Leader:Watcher] socket connected, port: 61745
+2017-05-04 10:35:47,752 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 11:00:29,226 INFO 44595 [Leader:Watcher] socket connected, port: 63899
+2017-05-04 11:00:35,570 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 11:09:28,010 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 11:32:14,020 INFO 44595 [Leader:Watcher] socket connected, port: 49253
+2017-05-04 11:32:24,675 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 11:35:28,918 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 11:38:28,662 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 11:38:34,443 INFO 44595 [Leader:Watcher] socket connected, port: 49591
+2017-05-04 11:50:03,478 INFO 44595 [Leader:Watcher] socket connected, port: 49824
+2017-05-04 11:50:04,752 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 12:05:51,630 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 12:05:52,434 INFO 44595 [Leader:Watcher] socket connected, port: 54586
+2017-05-04 12:29:47,168 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 14:04:33,653 INFO 44595 [Leader:Watcher] socket connected, port: 60926
+2017-05-04 14:04:38,511 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 14:53:24,928 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 14:53:26,867 INFO 44595 [Leader:Watcher] socket connected, port: 64420
+2017-05-04 15:12:42,014 INFO 44595 [Leader:Watcher] socket connected, port: 49223
+2017-05-04 15:12:47,148 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 15:17:52,176 INFO 44595 [Leader:Watcher] socket connected, port: 50906
+2017-05-04 15:17:54,449 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 17:01:14,630 INFO 44595 [Leader:Watcher] socket connected, port: 52853
+2017-05-04 17:01:23,850 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 17:33:36,336 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 17:33:36,542 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-04 17:33:37,695 INFO 44595 [Leader:Watcher] socket connected, port: 58468
+2017-05-04 17:40:23,983 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 17:40:24,188 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-04 17:40:25,192 INFO 44595 [Leader:Watcher] socket connected, port: 59705
+2017-05-04 18:03:09,151 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-04 18:03:45,028 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 18:03:45,229 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-04 18:03:46,004 INFO 44595 [Leader:Watcher] socket connected, port: 61907
+2017-05-04 18:04:38,021 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 18:04:38,222 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-04 18:04:39,079 INFO 44595 [Leader:Watcher] socket connected, port: 62056
+2017-05-04 18:04:51,609 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 18:04:51,812 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-04 18:04:52,644 INFO 44595 [Leader:Watcher] socket connected, port: 62077
+2017-05-04 18:05:04,578 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 18:05:04,780 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-04 18:05:05,650 INFO 44595 [Leader:Watcher] socket connected, port: 62134
+2017-05-04 18:05:13,560 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 18:05:13,765 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-04 18:05:14,622 INFO 44595 [Leader:Watcher] socket connected, port: 62150
+2017-05-04 18:05:34,579 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 18:05:34,783 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/route/login.js change
+2017-05-04 18:05:35,586 INFO 44595 [Leader:Watcher] socket connected, port: 62276
+2017-05-04 18:09:06,825 INFO 44595 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-04 18:09:07,028 WARN 44595 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-04 18:09:07,846 INFO 44595 [Leader:Watcher] socket connected, port: 63095
+2017-05-04 20:36:45,016 INFO 44595 [Leader:Watcher] socket connected, port: 51322
+2017-05-04 21:21:19,150 INFO 44595 [Leader:Watcher] socket connected, port: 51773
+2017-05-04 22:21:35,585 INFO 44595 [Leader:Watcher] socket connected, port: 51991
+2017-05-04 23:21:54,251 INFO 44595 [Leader:Watcher] socket connected, port: 52073
+2017-05-05 00:22:12,426 INFO 44595 [Leader:Watcher] socket connected, port: 52169
+2017-05-05 01:22:30,327 INFO 44595 [Leader:Watcher] socket connected, port: 52450
+2017-05-05 02:22:48,257 INFO 44595 [Leader:Watcher] socket connected, port: 52677
+2017-05-05 03:23:07,157 INFO 44595 [Leader:Watcher] socket connected, port: 53042
+2017-05-05 04:23:26,358 INFO 44595 [Leader:Watcher] socket connected, port: 53205
+2017-05-05 05:23:45,257 INFO 44595 [Leader:Watcher] socket connected, port: 53326
+2017-05-05 06:21:59,203 INFO 44595 [Leader:Watcher] socket connected, port: 53593
+2017-05-05 08:10:02,992 INFO 44595 [Leader:Watcher] socket connected, port: 53985
+2017-05-05 08:10:05,411 INFO 44595 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-05 10:20:56,915 INFO 48905 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-05 10:20:56,936 INFO 48905 [ClusterClient:Watcher] subscribe ["/Users/liudong/Documents/website/8jk/app","/Users/liudong/Documents/website/8jk/config","/Users/liudong/Documents/website/8jk/mocks","/Users/liudong/Documents/website/8jk/mocks_proxy"]
+2017-05-05 10:20:57,253 INFO 48905 [egg-mongoose] connecting mongodb://jwt:token@192.168.3.10:27017/egg_jwt
+2017-05-05 10:20:57,285 INFO 48905 [egg-mongoose] starting...
+2017-05-05 10:20:57,295 INFO 48905 [ClusterClient:Watcher] has seized port 51561, and serves as leader client.
+2017-05-05 10:20:57,298 INFO 48905 [egg-watcher:agent] watcher start success
+2017-05-05 10:20:57,422 INFO 48905 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt connected successfully
+2017-05-05 10:20:57,423 INFO 48905 [egg-mongoose] start successfully and server status is ok
+2017-05-05 10:20:58,238 INFO 48905 [Leader:Watcher] socket connected, port: 51574
+2017-05-05 10:23:41,924 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:23:42,126 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 10:23:42,961 INFO 48905 [Leader:Watcher] socket connected, port: 52429
+2017-05-05 10:24:08,285 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:24:08,490 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 10:24:09,339 INFO 48905 [Leader:Watcher] socket connected, port: 52683
+2017-05-05 10:24:13,997 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:24:14,202 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 10:24:15,094 INFO 48905 [Leader:Watcher] socket connected, port: 52773
+2017-05-05 10:27:26,316 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:27:26,521 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 10:27:27,484 INFO 48905 [Leader:Watcher] socket connected, port: 53829
+2017-05-05 10:29:26,872 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:29:27,076 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 10:29:27,800 INFO 48905 [Leader:Watcher] socket connected, port: 54369
+2017-05-05 10:30:01,630 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:30:01,830 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 10:30:02,832 INFO 48905 [Leader:Watcher] socket connected, port: 54582
+2017-05-05 10:34:43,708 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:34:43,913 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 10:34:45,245 INFO 48905 [Leader:Watcher] socket connected, port: 56378
+2017-05-05 10:50:01,276 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:50:01,477 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 10:50:02,306 INFO 48905 [Leader:Watcher] socket connected, port: 60264
+2017-05-05 10:51:57,606 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:51:57,806 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 10:51:58,750 INFO 48905 [Leader:Watcher] socket connected, port: 60790
+2017-05-05 10:54:12,692 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:54:12,894 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 10:54:13,817 INFO 48905 [Leader:Watcher] socket connected, port: 61034
+2017-05-05 10:56:52,489 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 10:56:52,690 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 10:56:53,553 INFO 48905 [Leader:Watcher] socket connected, port: 61770
+2017-05-05 11:12:34,056 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:12:34,261 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:12:35,349 INFO 48905 [Leader:Watcher] socket connected, port: 49482
+2017-05-05 11:14:14,978 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:14:15,180 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:14:15,943 INFO 48905 [Leader:Watcher] socket connected, port: 49906
+2017-05-05 11:16:53,789 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:16:53,992 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:16:55,126 INFO 48905 [Leader:Watcher] socket connected, port: 50497
+2017-05-05 11:17:34,515 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:17:34,721 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:17:35,593 INFO 48905 [Leader:Watcher] socket connected, port: 50597
+2017-05-05 11:17:36,989 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:17:37,194 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:17:38,160 INFO 48905 [Leader:Watcher] socket connected, port: 50612
+2017-05-05 11:17:44,195 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:17:44,400 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:17:45,414 INFO 48905 [Leader:Watcher] socket connected, port: 50656
+2017-05-05 11:17:47,245 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:17:47,449 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:17:48,587 INFO 48905 [Leader:Watcher] socket connected, port: 50675
+2017-05-05 11:24:30,771 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:24:30,975 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:24:32,144 INFO 48905 [Leader:Watcher] socket connected, port: 53004
+2017-05-05 11:24:35,441 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:24:35,646 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:24:36,489 INFO 48905 [Leader:Watcher] socket connected, port: 53090
+2017-05-05 11:26:03,187 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:26:03,391 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:26:04,328 INFO 48905 [Leader:Watcher] socket connected, port: 53646
+2017-05-05 11:27:42,083 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:27:42,286 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:27:43,110 INFO 48905 [Leader:Watcher] socket connected, port: 53843
+2017-05-05 11:36:58,012 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:36:58,216 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:36:59,444 INFO 48905 [Leader:Watcher] socket connected, port: 57411
+2017-05-05 11:37:33,728 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:37:33,929 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:37:34,938 INFO 48905 [Leader:Watcher] socket connected, port: 57578
+2017-05-05 11:37:41,144 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:37:41,346 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 11:37:42,145 INFO 48905 [Leader:Watcher] socket connected, port: 57618
+2017-05-05 11:37:42,151 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:37:42,356 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 11:37:43,231 INFO 48905 [Leader:Watcher] socket connected, port: 57628
+2017-05-05 11:37:44,708 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:37:44,909 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 11:37:45,765 INFO 48905 [Leader:Watcher] socket connected, port: 57640
+2017-05-05 11:38:07,495 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:38:07,698 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:38:08,608 INFO 48905 [Leader:Watcher] socket connected, port: 57700
+2017-05-05 11:38:09,276 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 11:38:09,481 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 11:38:10,345 INFO 48905 [Leader:Watcher] socket connected, port: 57713
+2017-05-05 12:09:47,870 INFO 48905 [Leader:Watcher] socket connected, port: 59871
+2017-05-05 12:09:51,123 INFO 48905 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-05 12:25:02,945 INFO 48905 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-05 12:25:05,225 INFO 48905 [Leader:Watcher] socket connected, port: 61628
+2017-05-05 13:35:27,468 INFO 48905 [Leader:Watcher] socket connected, port: 63396
+2017-05-05 14:36:19,736 INFO 48905 [Leader:Watcher] socket connected, port: 63845
+2017-05-05 15:37:02,028 INFO 48905 [Leader:Watcher] socket connected, port: 64162
+2017-05-05 15:39:33,579 INFO 48905 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-05 15:39:34,083 INFO 48905 [Leader:Watcher] socket connected, port: 64629
+2017-05-05 16:10:00,412 INFO 48905 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 16:10:00,614 WARN 48905 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-05 16:10:01,738 INFO 48905 [Leader:Watcher] socket connected, port: 58984
+2017-05-05 16:46:28,830 INFO 51516 [egg:logger] init all loggers with options: {"dir":"/Users/liudong/Documents/website/8jk/logs/8jk","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","outputJSON":false,"buffer":false,"appLogName":"8jk-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"type":"agent"}
+2017-05-05 16:46:28,847 INFO 51516 [ClusterClient:Watcher] subscribe ["/Users/liudong/Documents/website/8jk/app","/Users/liudong/Documents/website/8jk/config","/Users/liudong/Documents/website/8jk/mocks","/Users/liudong/Documents/website/8jk/mocks_proxy"]
+2017-05-05 16:46:29,163 INFO 51516 [egg-mongoose] connecting mongodb://jwt:token@192.168.3.10:27017/egg_jwt
+2017-05-05 16:46:29,195 INFO 51516 [egg-mongoose] starting...
+2017-05-05 16:46:29,209 INFO 51516 [ClusterClient:Watcher] has seized port 64365, and serves as leader client.
+2017-05-05 16:46:29,213 INFO 51516 [egg-watcher:agent] watcher start success
+2017-05-05 16:46:29,326 INFO 51516 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt connected successfully
+2017-05-05 16:46:29,327 INFO 51516 [egg-mongoose] start successfully and server status is ok
+2017-05-05 16:46:30,143 INFO 51516 [Leader:Watcher] socket connected, port: 64373
+2017-05-05 16:46:56,854 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 16:46:57,060 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 16:46:57,895 INFO 51516 [Leader:Watcher] socket connected, port: 64431
+2017-05-05 16:47:19,674 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 16:47:19,879 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 16:47:20,757 INFO 51516 [Leader:Watcher] socket connected, port: 64506
+2017-05-05 17:00:51,839 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:00:52,044 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:00:53,095 INFO 51516 [Leader:Watcher] socket connected, port: 50334
+2017-05-05 17:03:47,615 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:03:47,818 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:03:49,102 INFO 51516 [Leader:Watcher] socket connected, port: 50823
+2017-05-05 17:06:41,729 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:06:41,931 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:06:42,997 INFO 51516 [Leader:Watcher] socket connected, port: 51137
+2017-05-05 17:07:12,345 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:07:12,548 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 17:07:13,356 INFO 51516 [Leader:Watcher] socket connected, port: 51234
+2017-05-05 17:08:08,110 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:08:08,314 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:08:09,515 INFO 51516 [Leader:Watcher] socket connected, port: 51426
+2017-05-05 17:12:21,525 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:12:21,729 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:12:22,740 INFO 51516 [Leader:Watcher] socket connected, port: 52269
+2017-05-05 17:13:05,918 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:13:06,120 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 17:13:06,871 INFO 51516 [Leader:Watcher] socket connected, port: 52358
+2017-05-05 17:14:35,091 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:14:35,294 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 17:14:36,214 INFO 51516 [Leader:Watcher] socket connected, port: 52544
+2017-05-05 17:14:39,441 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:14:39,646 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 17:14:40,505 INFO 51516 [Leader:Watcher] socket connected, port: 52568
+2017-05-05 17:14:40,960 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:14:41,160 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 17:14:42,400 INFO 51516 [Leader:Watcher] socket connected, port: 52583
+2017-05-05 17:18:26,827 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:18:27,032 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js change
+2017-05-05 17:18:27,890 INFO 51516 [Leader:Watcher] socket connected, port: 53115
+2017-05-05 17:20:01,251 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:20:01,456 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 17:20:02,544 INFO 51516 [Leader:Watcher] socket connected, port: 53430
+2017-05-05 17:20:07,209 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:20:07,410 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 17:20:24,900 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:20:24,901 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:20:25,104 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js rename
+2017-05-05 17:20:26,250 INFO 51516 [Leader:Watcher] socket connected, port: 53538
+2017-05-05 17:20:31,133 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:20:31,337 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js rename
+2017-05-05 17:20:32,157 INFO 51516 [Leader:Watcher] socket connected, port: 53572
+2017-05-05 17:20:34,326 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:20:34,530 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/config/config.default.js change
+2017-05-05 17:20:35,432 INFO 51516 [Leader:Watcher] socket connected, port: 53589
+2017-05-05 17:21:41,129 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:21:41,333 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:22:23,268 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:22:23,471 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:22:24,068 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:22:24,273 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:22:24,355 INFO 51516 [Leader:Watcher] socket connected, port: 54075
+2017-05-05 17:22:25,247 INFO 51516 [Leader:Watcher] socket connected, port: 54083
+2017-05-05 17:22:37,403 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:22:37,606 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:22:38,804 INFO 51516 [Leader:Watcher] socket connected, port: 54158
+2017-05-05 17:22:54,846 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:22:55,051 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:22:55,896 INFO 51516 [Leader:Watcher] socket connected, port: 54236
+2017-05-05 17:23:06,487 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:23:06,691 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:23:07,486 INFO 51516 [Leader:Watcher] socket connected, port: 54291
+2017-05-05 17:24:03,447 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:24:03,652 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:24:04,431 INFO 51516 [Leader:Watcher] socket connected, port: 54557
+2017-05-05 17:24:05,045 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:24:05,250 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:24:06,095 INFO 51516 [Leader:Watcher] socket connected, port: 54570
+2017-05-05 17:24:31,705 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:24:31,907 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:24:32,768 INFO 51516 [Leader:Watcher] socket connected, port: 54688
+2017-05-05 17:24:38,795 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:24:38,998 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-05 17:24:39,851 INFO 51516 [Leader:Watcher] socket connected, port: 54727
+2017-05-05 17:28:30,831 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:28:31,036 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:28:31,979 INFO 51516 [Leader:Watcher] socket connected, port: 55105
+2017-05-05 17:28:55,285 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:28:55,488 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:28:56,760 INFO 51516 [Leader:Watcher] socket connected, port: 55145
+2017-05-05 17:29:16,436 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:29:16,642 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:29:17,580 INFO 51516 [Leader:Watcher] socket connected, port: 55202
+2017-05-05 17:29:47,055 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:29:47,258 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:29:48,068 INFO 51516 [Leader:Watcher] socket connected, port: 55272
+2017-05-05 17:29:49,474 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:29:49,678 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:29:50,745 INFO 51516 [Leader:Watcher] socket connected, port: 55287
+2017-05-05 17:29:59,386 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:29:59,591 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:30:00,506 INFO 51516 [Leader:Watcher] socket connected, port: 55322
+2017-05-05 17:30:11,489 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:30:11,693 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:30:12,561 INFO 51516 [Leader:Watcher] socket connected, port: 55363
+2017-05-05 17:31:16,900 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-05 17:31:17,105 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-05 17:31:17,879 INFO 51516 [Leader:Watcher] socket connected, port: 55494
+2017-05-05 17:42:05,712 INFO 51516 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-05 18:13:40,103 INFO 51516 [egg-mongoose] mongodb://jwt:token@192.168.3.10:27017/egg_jwt reconnected successfully
+2017-05-05 21:03:29,029 INFO 51516 [Leader:Watcher] socket connected, port: 49969
+2017-05-05 21:16:47,202 INFO 51516 [Leader:Watcher] socket connected, port: 50449
+2017-05-05 22:17:03,915 INFO 51516 [Leader:Watcher] socket connected, port: 50529
+2017-05-05 23:17:22,271 INFO 51516 [Leader:Watcher] socket connected, port: 50763
+2017-05-06 00:17:41,499 INFO 51516 [Leader:Watcher] socket connected, port: 50973
+2017-05-06 01:18:00,140 INFO 51516 [Leader:Watcher] socket connected, port: 51262
+2017-05-06 02:18:19,267 INFO 51516 [Leader:Watcher] socket connected, port: 51568
+2017-05-06 03:18:38,102 INFO 51516 [Leader:Watcher] socket connected, port: 51735
+2017-05-06 04:18:57,384 INFO 51516 [Leader:Watcher] socket connected, port: 52255
+2017-05-06 05:19:16,063 INFO 51516 [Leader:Watcher] socket connected, port: 52567
+2017-05-06 06:17:30,366 INFO 51516 [Leader:Watcher] socket connected, port: 52724
+2017-05-06 07:55:29,339 INFO 51516 [Leader:Watcher] socket connected, port: 52943
+2017-05-06 08:08:12,199 INFO 51516 [Leader:Watcher] socket connected, port: 53397
+2017-05-06 08:59:13,282 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 08:59:13,487 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 08:59:15,294 INFO 51516 [Leader:Watcher] socket connected, port: 61801
+2017-05-06 09:00:06,707 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 09:00:06,909 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 09:00:08,404 INFO 51516 [Leader:Watcher] socket connected, port: 61895
+2017-05-06 09:01:37,833 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 09:01:38,033 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-06 09:01:39,679 INFO 51516 [Leader:Watcher] socket connected, port: 62072
+2017-05-06 09:02:53,207 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 09:02:53,411 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-06 09:02:55,048 INFO 51516 [Leader:Watcher] socket connected, port: 62221
+2017-05-06 09:16:16,445 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 09:16:16,649 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-06 09:16:18,287 INFO 51516 [Leader:Watcher] socket connected, port: 64502
+2017-05-06 09:17:00,535 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 09:17:00,739 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 09:17:02,214 INFO 51516 [Leader:Watcher] socket connected, port: 64605
+2017-05-06 09:43:26,196 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 09:43:26,400 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 10:45:22,943 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 10:45:23,145 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 10:45:24,402 INFO 51516 [Leader:Watcher] socket connected, port: 57377
+2017-05-06 10:45:44,360 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 10:45:44,563 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-06 10:46:19,882 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 10:46:20,085 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/middleware/token_verify.js change
+2017-05-06 10:46:20,969 INFO 51516 [Leader:Watcher] socket connected, port: 57630
+2017-05-06 10:51:21,893 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 10:51:22,098 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 10:51:23,140 INFO 51516 [Leader:Watcher] socket connected, port: 59043
+2017-05-06 10:57:51,854 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 10:57:52,062 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 10:57:52,857 INFO 51516 [Leader:Watcher] socket connected, port: 60833
+2017-05-06 11:09:16,736 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:09:16,940 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-06 11:09:17,778 INFO 51516 [Leader:Watcher] socket connected, port: 63826
+2017-05-06 11:09:23,465 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:09:23,666 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-06 11:09:24,517 INFO 51516 [Leader:Watcher] socket connected, port: 63860
+2017-05-06 11:09:24,629 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:09:24,830 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/router.js change
+2017-05-06 11:09:25,748 INFO 51516 [Leader:Watcher] socket connected, port: 63872
+2017-05-06 11:09:42,073 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:09:42,276 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:09:43,155 INFO 51516 [Leader:Watcher] socket connected, port: 63990
+2017-05-06 11:10:58,508 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:10:58,712 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:10:59,520 INFO 51516 [Leader:Watcher] socket connected, port: 64543
+2017-05-06 11:11:00,212 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:11:00,413 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:11:01,433 INFO 51516 [Leader:Watcher] socket connected, port: 64558
+2017-05-06 11:11:19,638 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:11:19,842 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:11:20,815 INFO 51516 [Leader:Watcher] socket connected, port: 64685
+2017-05-06 11:11:21,615 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:11:21,819 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:11:22,816 INFO 51516 [Leader:Watcher] socket connected, port: 64702
+2017-05-06 11:17:44,525 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:17:44,730 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:17:45,603 INFO 51516 [Leader:Watcher] socket connected, port: 50794
+2017-05-06 11:17:45,621 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:17:45,826 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:17:46,922 INFO 51516 [Leader:Watcher] socket connected, port: 50802
+2017-05-06 11:18:08,479 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:18:08,682 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:18:09,518 INFO 51516 [Leader:Watcher] socket connected, port: 50903
+2017-05-06 11:23:12,661 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:23:12,863 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/custom.js rename
+2017-05-06 11:23:13,080 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:23:13,282 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/custom.js change
+2017-05-06 11:23:14,135 INFO 51516 [Leader:Watcher] socket connected, port: 52397
+2017-05-06 11:23:15,081 INFO 51516 [Leader:Watcher] socket connected, port: 52401
+2017-05-06 11:24:09,347 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:24:09,551 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/custom.js rename
+2017-05-06 11:24:10,871 INFO 51516 [Leader:Watcher] socket connected, port: 52763
+2017-05-06 11:43:31,343 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:43:31,548 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:43:33,099 INFO 51516 [Leader:Watcher] socket connected, port: 59640
+2017-05-06 11:43:46,419 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:43:46,624 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:43:47,744 INFO 51516 [Leader:Watcher] socket connected, port: 59711
+2017-05-06 11:44:12,255 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:44:12,460 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:44:13,645 INFO 51516 [Leader:Watcher] socket connected, port: 59838
+2017-05-06 11:47:36,558 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:47:36,765 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:47:37,941 INFO 51516 [Leader:Watcher] socket connected, port: 60745
+2017-05-06 11:47:49,655 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 11:47:49,859 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/v1/index.js change
+2017-05-06 11:47:51,147 INFO 51516 [Leader:Watcher] socket connected, port: 60810
+2017-05-06 16:09:20,637 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 16:09:20,841 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 16:09:22,026 INFO 51516 [Leader:Watcher] socket connected, port: 62154
+2017-05-06 16:09:33,524 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 16:09:33,726 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 16:09:34,957 INFO 51516 [Leader:Watcher] socket connected, port: 62255
+2017-05-06 16:21:49,354 INFO 51516 [Leader:Watcher] push subscribe data to cluster client#Watcher_mock_conn_1
+2017-05-06 16:21:49,557 WARN 51516 [agent:development] reload worker because /Users/liudong/Documents/website/8jk/app/controller/login.js change
+2017-05-06 16:21:50,744 INFO 51516 [Leader:Watcher] socket connected, port: 50331
+2017-05-06 16:37:02,248 INFO 51516 [egg-schedule] send message: sendRandom egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/rotate_by_file.js
+2017-05-06 16:37:02,267 INFO 51516 [egg-schedule] send message: sendRandom egg-schedule:/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator/app/schedule/clean_log.js
