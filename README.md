@@ -34,10 +34,8 @@
       * Redis
         > redis:{enable: true,package: 'egg-redis'}
   3. config/config.default.js
-
-    - Add Cookies Keys -> keys:'your key'
     - Add Jwt secret -> 'your key'
-    
+     
 ### Deploy
 
 ----
