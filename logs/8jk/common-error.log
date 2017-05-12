@@ -1,48 +1,972 @@
-2017-05-09 14:52:12,489 ERROR 66049 [-/127.0.0.1/-/8ms GET /api/v1/] nodejs.JsonWebTokenError: invalid token
-    at GeneratorFunction.JWT.verify (/Users/liudong/Documents/website/8jk/node_modules/._jsonwebtoken@5.7.0@jsonwebtoken/index.js:201:17)
-    at IndexController.index (/Users/liudong/Documents/website/8jk/app/controller/v1/index.js:6:27)
-    at next (native)
-    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
-    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
-    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
-    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
-    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
-    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
-    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
-    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
-    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
-    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
-    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
-    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
-    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
-name: 'JsonWebTokenError'
-message: 'invalid token'
-pid: 66049
+2017-05-11 12:29:51,866 ERROR 75966 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 75966
 hostname: liud.local
 
-2017-05-09 16:03:20,074 ERROR 66714 [-/127.0.0.1/-/29ms POST /auth] nodejs.TypeError: Cannot read property 'findOne' of undefined
-    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:8:48)
-    at next (native)
-    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
-    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
-    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
-    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
-    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
-    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
-    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
-    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
-    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
-    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
-    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
-    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
-    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
-    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
-
-pid: 66714
+2017-05-11 12:29:51,873 ERROR 75966 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 75966
 hostname: liud.local
 
-2017-05-09 16:04:14,986 ERROR 66748 [-/127.0.0.1/-/28ms POST /auth] nodejs.TypeError: Cannot read property 'findOne' of undefined
-    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:8:48)
+2017-05-11 13:45:53,559 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3591434ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 14:26:25,011 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 2391413ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 16:43:35,255 ERROR 77497 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 77497
+hostname: liud.local
+
+2017-05-11 16:43:35,257 ERROR 77497 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 77497
+hostname: liud.local
+
+2017-05-11 17:44:02,237 ERROR 78273 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78273
+hostname: liud.local
+
+2017-05-11 17:44:02,241 ERROR 78273 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78273
+hostname: liud.local
+
+2017-05-11 17:44:07,398 ERROR 78282 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78282
+hostname: liud.local
+
+2017-05-11 17:44:07,402 ERROR 78282 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78282
+hostname: liud.local
+
+2017-05-11 17:44:08,852 ERROR 78290 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78290
+hostname: liud.local
+
+2017-05-11 17:44:08,854 ERROR 78290 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78290
+hostname: liud.local
+
+2017-05-11 17:45:00,315 ERROR 78314 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78314
+hostname: liud.local
+
+2017-05-11 17:45:00,317 ERROR 78314 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78314
+hostname: liud.local
+
+2017-05-11 17:45:02,785 ERROR 78315 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78315
+hostname: liud.local
+
+2017-05-11 17:45:02,786 ERROR 78315 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78315
+hostname: liud.local
+
+2017-05-11 17:46:43,802 ERROR 78338 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78338
+hostname: liud.local
+
+2017-05-11 17:46:43,804 ERROR 78338 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78338
+hostname: liud.local
+
+2017-05-11 17:46:45,858 ERROR 78339 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:197:16
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78339
+hostname: liud.local
+
+2017-05-11 17:46:45,861 ERROR 78339 nodejs.ReplyError: ERR invalid DB index
+    at JavascriptReplyParser.returnError (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/parser.js:25:25)
+    at JavascriptReplyParser.run (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:135:18)
+    at JavascriptReplyParser.execute (/Users/liudong/Documents/website/8jk/node_modules/._redis-parser@1.3.0@redis-parser/lib/javascript.js:112:10)
+    at Socket.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:107:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:551:20)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Promise._resolveFromExecutor (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:480:10)
+    at new Promise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Command.initPromise (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:63:18)
+    at new Command (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/command.js:51:8)
+    at Redis.select (/Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/commander.js:131:29)
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:205:12
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis/event_handler.js:52:39
+    at /Users/liudong/Documents/website/8jk/node_modules/._ioredis@2.5.0@ioredis/lib/redis.js:429:7
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise.successAdapter [as _fulfillmentHandler0] (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/nodeify.js:23:30)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:566:21)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+name: 'ReplyError'
+message: 'ERR invalid DB index'
+command: { name: 'select', args: [ 'NaN' ] }
+pid: 78339
+hostname: liud.local
+
+2017-05-11 17:47:03,904 ERROR 78339 [-/127.0.0.1/-/57ms POST /auth] nodejs.TypeError: Date.now(...).getTime is not a function
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:24:29)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at newTickHandler (/Users/liudong/Documents/website/8jk/node_modules/._mpromise@0.5.5@mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+pid: 78339
+hostname: liud.local
+
+2017-05-11 17:51:55,142 ERROR 78527 [-/127.0.0.1/-/52ms POST /auth] nodejs.TypeError: Date.now(...).getTime is not a function
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:24:29)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at newTickHandler (/Users/liudong/Documents/website/8jk/node_modules/._mpromise@0.5.5@mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+pid: 78527
+hostname: liud.local
+
+2017-05-11 18:02:31,511 ERROR 78651 [-/127.0.0.1/-/53ms POST /auth] nodejs.TypeError: Date.now(...).getTime is not a function
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:24:29)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at newTickHandler (/Users/liudong/Documents/website/8jk/node_modules/._mpromise@0.5.5@mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+pid: 78651
+hostname: liud.local
+
+2017-05-11 18:48:19,027 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 465277ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 18:51:33,024 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 123423ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 19:52:10,243 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3607181ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 20:13:37,145 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 1276898ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 21:14:14,616 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3607446ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 21:49:30,007 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 2115390ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 22:49:50,528 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3609411ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-11 23:50:08,982 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3608261ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 00:50:28,234 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3608457ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 01:50:46,889 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3608030ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 02:51:06,948 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3609145ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 03:51:25,768 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3608096ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 04:51:44,862 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3608571ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 05:52:05,047 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3609349ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 06:50:13,945 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 3478117ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 08:09:05,488 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 4721452ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 08:38:12,244 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 246044ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 10:24:55,710 ERROR 80594 [-/127.0.0.1/-/54ms POST /auth] nodejs.MongoError: '$set' is empty. You must specify a field like so: {$set: {<field>: ...}}
+    at Function.MongoError.create (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/collection.js:1060:67
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'MongoError'
+message: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+driver: true
+index: 0
+code: 9
+errmsg: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+pid: 80594
+hostname: liud.local
+
+2017-05-12 10:28:31,628 ERROR 80635 [-/127.0.0.1/-/68ms POST /auth] nodejs.TypeError: callback.apply is not a function
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/model.js:3731:16
+    at callback (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/query.js:2612:9)
+    at _update (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/query.js:2674:17)
+    at Query.update (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/query.js:2453:10)
+    at _update (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/model.js:2400:16)
+    at Function.update (/Users/liudong/Documents/website/8jk/node_modules/._mongoose@4.9.6@mongoose/lib/model.js:2310:10)
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:20:34)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at newTickHandler (/Users/liudong/Documents/website/8jk/node_modules/._mpromise@0.5.5@mpromise/lib/promise.js:234:18)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+pid: 80635
+hostname: liud.local
+
+2017-05-12 10:33:11,640 ERROR 80719 [-/127.0.0.1/-/54ms POST /auth] nodejs.MongoError: '$set' is empty. You must specify a field like so: {$set: {<field>: ...}}
+    at Function.MongoError.create (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/collection.js:1060:67
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'MongoError'
+message: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+driver: true
+index: 0
+code: 9
+errmsg: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+pid: 80719
+hostname: liud.local
+
+2017-05-12 10:38:24,785 ERROR 80814 [-/127.0.0.1/-/64ms POST /auth] nodejs.MongoError: '$set' is empty. You must specify a field like so: {$set: {<field>: ...}}
+    at Function.MongoError.create (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/collection.js:1060:67
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'MongoError'
+message: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+driver: true
+index: 0
+code: 9
+errmsg: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+pid: 80814
+hostname: liud.local
+
+2017-05-12 10:39:13,628 ERROR 80858 [-/127.0.0.1/-/67ms POST /auth] nodejs.MongoError: '$set' is empty. You must specify a field like so: {$set: {<field>: ...}}
+    at Function.MongoError.create (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/collection.js:1060:67
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'MongoError'
+message: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+driver: true
+index: 0
+code: 9
+errmsg: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+pid: 80858
+hostname: liud.local
+
+2017-05-12 10:40:05,209 ERROR 80908 [-/127.0.0.1/-/93ms POST /auth] nodejs.MongoError: '$set' is empty. You must specify a field like so: {$set: {<field>: ...}}
+    at Function.MongoError.create (/Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/error.js:31:11)
+    at toError (/Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/utils.js:139:22)
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb@2.2.26@mongodb/lib/collection.js:1060:67
+    at /Users/liudong/Documents/website/8jk/node_modules/._mongodb-core@2.1.10@mongodb-core/lib/connection/pool.js:461:18
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+name: 'MongoError'
+message: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+driver: true
+index: 0
+code: 9
+errmsg: '\'$set\' is empty. You must specify a field like so: {$set: {<field>: ...}}'
+pid: 80908
+hostname: liud.local
+
+2017-05-12 11:35:02,840 ERROR 82004 [-/127.0.0.1/-/12ms GET /api/v1/member] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:8:32)
     at next (native)
     at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
     at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
@@ -58,7 +982,463 @@ hostname: liud.local
     at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
     at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
     at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
 
-pid: 66748
+pid: 82004
+hostname: liud.local
+
+2017-05-12 11:36:41,641 ERROR 82064 [-/127.0.0.1/-/7ms GET /api/v1/member] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:9:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82064
+hostname: liud.local
+
+2017-05-12 11:37:09,191 ERROR 82064 [-/127.0.0.1/-/4ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:9:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82064
+hostname: liud.local
+
+2017-05-12 11:39:33,525 ERROR 82128 [-/127.0.0.1/-/11ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:9:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82128
+hostname: liud.local
+
+2017-05-12 11:42:54,270 ERROR 82269 [-/127.0.0.1/-/10ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:9:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82269
+hostname: liud.local
+
+2017-05-12 11:43:14,816 ERROR 82289 [-/127.0.0.1/-/7ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:9:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82289
+hostname: liud.local
+
+2017-05-12 11:43:17,845 ERROR 82289 [-/127.0.0.1/-/1ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:9:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82289
+hostname: liud.local
+
+2017-05-12 11:51:03,764 ERROR 82441 [-/127.0.0.1/-/19ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token.js:8:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82441
+hostname: liud.local
+
+2017-05-12 11:58:42,052 ERROR 82622 [-/127.0.0.1/-/9ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/tokenverfty.js:8:32)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82622
+hostname: liud.local
+
+2017-05-12 11:59:09,912 ERROR 82636 [-/127.0.0.1/-/26ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/tokenverfty.js:8:32)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82636
+hostname: liud.local
+
+2017-05-12 11:59:12,773 ERROR 82636 [-/127.0.0.1/-/8ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/tokenverfty.js:8:32)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82636
+hostname: liud.local
+
+2017-05-12 12:00:51,796 ERROR 82658 [-/127.0.0.1/-/4ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'verify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/tokenverfty.js:8:32)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82658
+hostname: liud.local
+
+2017-05-12 12:09:53,749 ERROR 82984 [-/127.0.0.1/-/22ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/tokenverify.js:7:21)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 82984
+hostname: liud.local
+
+2017-05-12 12:14:48,287 ERROR 83089 [-/127.0.0.1/-/4ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'tokenVerify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token_verify.js:7:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 83089
+hostname: liud.local
+
+2017-05-12 12:15:06,437 ERROR 83109 [-/127.0.0.1/-/9ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'tokenVerify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token_verify.js:7:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 83109
+hostname: liud.local
+
+2017-05-12 12:15:11,501 ERROR 83109 [-/127.0.0.1/-/3ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'tokenVerify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token_verify.js:7:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 83109
+hostname: liud.local
+
+2017-05-12 12:15:11,722 ERROR 83109 [-/127.0.0.1/-/2ms GET /api/v1/member?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJfdWlkIjoiNTkxMDIzODM5MzE0MDBkNmM3ZGY1NTA2IiwiaWF0IjoxNDk0NTU5NTc0fQ.jtpwsgvKY5dW7pY8cPnW3The_eM8PM7fuyk-tx1xpEQ] nodejs.TypeError: Cannot read property 'tokenVerify' of undefined
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/app/middleware/token_verify.js:7:36)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+
+pid: 83109
+hostname: liud.local
+
+2017-05-12 13:35:12,544 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 1712221ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
+hostname: liud.local
+
+2017-05-12 14:19:38,952 ERROR 66977 nodejs.ClusterClientNoResponseError: client no response in 2616356ms exceeding maxIdleTime 30000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/liudong/Documents/website/8jk/node_modules/._cluster-client@1.6.3@cluster-client/lib/leader.js:71:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 66977
 hostname: liud.local
 

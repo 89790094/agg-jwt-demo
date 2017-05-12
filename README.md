@@ -37,9 +37,11 @@
 
     - Add Cookies Keys -> keys:'your key'
     - Add Jwt secret -> 'your key'
+    
 ### Deploy
 
-
+----
+QQ:89790094
 	
 
  

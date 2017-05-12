@@ -1,11 +1,11 @@
 module.exports = {
     keys: 'xueand',
-    jwt:{
-        secret: '09314567301',
+    jwt: {
+        secret: 'U2IMqKStsRKb4Zsyhv',
     },
-    middleware:['token'],
-    token:{
-        match:'/api/v1',
+    middleware: ['tokenverify'],
+    tokenverify: {
+        match: '/api/v1',
     },
     mongoose: {
         url: 'mongodb://jwt:token@192.168.3.10:27017/egg_jwt',
@@ -21,4 +21,13 @@ module.exports = {
             ignoreJSON: true,
         },
     },
+    redis: {
+        client: {
+            host: '192.168.3.10',
+            port: '6379',
+            family: 'IPv4',
+            password: 'sa',
+            db: 0
+        }
+    }
 }

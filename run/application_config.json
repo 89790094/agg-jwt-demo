@@ -32,7 +32,8 @@
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-jwt@1.1.0@egg-jwt/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-validate@1.0.0@egg-validate/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-mongoose@1.1.1@egg-mongoose/config/locales",
-        "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/locales",
+        "/Users/liudong/Documents/website/8jk/node_modules/._egg-redis@1.0.1@egg-redis/config/locales",
+        "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/locales",
         "/Users/liudong/Documents/website/8jk/config/locales"
       ],
       "queryField": "locale",
@@ -142,7 +143,7 @@
       "mapping": {}
     },
     "jwt": {
-      "secret": "<String len: 11>"
+      "secret": "<String len: 18>"
     },
     "mongoose": {
       "url": "mongodb://jwt:token@192.168.3.10:27017/egg_jwt",
@@ -160,6 +161,18 @@
         "replset": {
           "socketOptions": {}
         }
+      }
+    },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "192.168.3.10",
+        "port": "6379",
+        "family": "IPv4",
+        "password": "<String len: 2>",
+        "db": 0
       }
     },
     "env": "local",
@@ -189,7 +202,8 @@
       "homepage": "https://github.com/89790094/8jk#readme",
       "dependencies": {
         "crypto": "^0.0.3",
-        "egg": "^1.2.1",
+        "egg": "^1.3.0",
+        "egg-bin": "^3.3.2",
         "egg-jwt": "^1.1.0",
         "egg-mongoose": "^1.1.1",
         "egg-redis": "^1.0.1",
@@ -237,10 +251,10 @@
       "dir": "/Users/liudong/Documents/website/8jk/logs/8jk",
       "encoding": "utf8",
       "env": "local",
-      "level": "DEBUG",
+      "level": "INFO",
       "consoleLevel": "INFO",
       "outputJSON": false,
-      "buffer": false,
+      "buffer": true,
       "appLogName": "8jk-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
@@ -270,9 +284,9 @@
     ],
     "workerStartTimeout": 600000,
     "middleware": [
-      "token"
+      "tokenverify"
     ],
-    "token": {
+    "tokenverify": {
       "match": "/api/v1"
     },
     "coreMiddlewares": [
@@ -286,10 +300,10 @@
       "securities"
     ],
     "appMiddlewares": [
-      "token"
+      "tokenverify"
     ],
     "appMiddleware": [
-      "token"
+      "tokenverify"
     ],
     "multipartParseOptions": {
       "autoFields": false,
@@ -312,7 +326,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-onerror@1.3.0@egg-onerror",
       "version": "1.3.0"
     },
@@ -323,7 +337,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-session@2.1.0@egg-session",
       "version": "2.1.0"
     },
@@ -334,7 +348,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-i18n@1.1.1@egg-i18n",
       "version": "1.1.1"
     },
@@ -345,7 +359,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-watcher@2.1.1@egg-watcher",
       "version": "2.1.1"
     },
@@ -356,7 +370,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-multipart@1.3.0@egg-multipart",
       "version": "1.3.0"
     },
@@ -369,7 +383,7 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security",
       "version": "1.9.0"
     },
@@ -384,7 +398,7 @@
       "env": [
         "local"
       ],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-development@1.3.0@egg-development",
       "version": "1.3.0"
     },
@@ -395,7 +409,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-schedule@2.3.0@egg-schedule",
       "version": "2.3.0"
     },
@@ -408,7 +422,7 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-logrotator@2.2.2@egg-logrotator",
       "version": "2.2.2"
     },
@@ -419,7 +433,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-static@1.3.0@egg-static",
       "version": "1.3.0"
     },
@@ -432,7 +446,7 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-jsonp@1.0.0@egg-jsonp",
       "version": "1.0.0"
     },
@@ -443,7 +457,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.1.0@egg/config/plugin.js",
+      "from": "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-view@1.1.0@egg-view",
       "version": "1.1.0"
     },
@@ -479,6 +493,17 @@
       "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-mongoose@1.1.1@egg-mongoose",
       "version": "1.1.1"
+    },
+    "redis": {
+      "enable": true,
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
+      "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-redis@1.0.1@egg-redis",
+      "version": "1.0.1"
     }
   }
 }

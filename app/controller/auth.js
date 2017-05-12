@@ -5,22 +5,47 @@ module.exports = app => {
     * index() {
       const { ctx, app } = this;
       const { mobile, password } = ctx.request.body;
-      let { _id, pwd } = yield ctx.model.member.findOne({ mobile: mobile, status: 1 }, { 'pwd': 1 });
+      let { _id, pwd, status } = yield ctx.model.member.findOne({ mobile: mobile }, { 'pwd': 1, 'status': 1 });
       if (!_id) {
         ctx.status = 401;
         ctx.body = { message: '用户名错误' };
+      } else if (!status) {
+        ctx.status = 401;
+        ctx.body = { message: '用户状态异常' };
+      } else if (this.md5(password) !== pwd) {
+        ctx.status = 401;
+        ctx.body = { message: '密码错误' };
       } else {
-        if (this.md5(password) !== pwd) {
-          ctx.status = 401;
-          ctx.body = { message: '密码错误' };
-        } else {
-          let payload = { userid: _id, exp: new Date().getTime() + 7 * 24 * 60 * 60 * 1000 };
-          const accesstoken = app.jwt.sign(payload, app.config.jwt.secret);
-          //ctx.cookies.set('token', accesstoken, { expires: new Date().getTime() + 365 * 24 * 60 * 60 * 1000 });
-          ctx.status = 200;
-          ctx.body = { token: accesstoken };
+        //update logintime
+        let lat = Date.now();
+        yield ctx.model.member.updateOne({ _id: _id }, { $set: { lasttime: lat } }, { upsert: true });
+        let payload = { _uid: _id };
+        let accesstoken = app.jwt.sign(payload, app.config.jwt.secret);
+        //write to redis
+        let userdate = {
+          token: accesstoken,
+          exp: lat
         }
+        if(yield app.redis.exists('uid:' + _id)){
+          yield app.redis.del('uid:' + _uid);
+        }
+        yield app.redis.hmset('uid:' + _id, userdate);
+        yield app.redis.expire('uid:' + _id, 7 * 24 * 60 * 60);
+        ctx.status = 200;
+        ctx.body = { token: accesstoken };
       }
+    }
+
+    * create(){
+      const { ctx, app } = this;
+      const { mobile, password } = ctx.request.body;
+
+    }
+
+    * destroy(){
+      const { ctx, app } = this;
+      const { _id } = ctx.request.body;
+      
     }
   }
   return AuthController;
