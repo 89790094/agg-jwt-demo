@@ -5,7 +5,7 @@ module.exports = app => {
     * index() {
       const { ctx, app } = this;
       const { mobile, password } = ctx.request.body;
-      let { _id, pwd, status } = yield ctx.model.member.findOne({ mobile: mobile }, { 'pwd': 1, 'status': 1 });
+      const { _id, pwd, status } = yield ctx.model.member.findOne({ mobile: mobile }, { 'pwd': 1, 'status': 1 });
       if (!_id) {
         ctx.status = 401;
         ctx.body = { message: '用户名错误' };
@@ -17,6 +17,7 @@ module.exports = app => {
         ctx.body = { message: '密码错误' };
       } else {
         //update logintime
+        const ukey = `uid:${_id}`;
         let lat = Date.now();
         yield ctx.model.member.updateOne({ _id: _id }, { $set: { lasttime: lat } }, { upsert: true });
         let payload = { _uid: _id };
@@ -26,11 +27,11 @@ module.exports = app => {
           token: accesstoken,
           exp: lat
         }
-        if(yield app.redis.exists('uid:' + _id)){
-          yield app.redis.del('uid:' + _uid);
+        if(yield app.redis.exists(ukey)){
+          yield app.redis.del(ukey);
         }
-        yield app.redis.hmset('uid:' + _id, userdate);
-        yield app.redis.expire('uid:' + _id, 7 * 24 * 60 * 60);
+        yield app.redis.hmset(ukey, userdate);
+        yield app.redis.expire(ukey, 7 * 24 * 60 * 60);
         ctx.status = 200;
         ctx.body = { token: accesstoken };
       }

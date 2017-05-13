@@ -29,5 +29,14 @@ module.exports = {
             password: 'sa',
             db: 0
         }
+    },
+    io: {
+        init: {},
+        namespace: {
+            '/': {
+                connectionMiddleware: [],
+                packetMiddleware: [],
+            },
+        },
     }
 }

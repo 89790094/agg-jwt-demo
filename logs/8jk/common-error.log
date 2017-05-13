@@ -1442,3 +1442,174 @@ name: 'ClusterClientNoResponseError'
 pid: 66977
 hostname: liud.local
 
+2017-05-12 16:59:50,831 ERROR 86129 [-/127.0.0.1/-/53ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86129
+hostname: liud.local
+
+2017-05-12 17:00:25,491 ERROR 86366 [-/127.0.0.1/-/94ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86366
+hostname: liud.local
+
+2017-05-12 17:02:35,288 ERROR 86428 [-/127.0.0.1/-/64ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86428
+hostname: liud.local
+
+2017-05-12 17:03:48,952 ERROR 86455 [-/127.0.0.1/-/55ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86455
+hostname: liud.local
+
+2017-05-12 17:04:49,526 ERROR 86501 [-/127.0.0.1/-/91ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86501
+hostname: liud.local
+
+2017-05-12 17:07:03,159 ERROR 86572 [-/127.0.0.1/-/58ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86572
+hostname: liud.local
+
+2017-05-12 17:07:29,057 ERROR 86606 [-/127.0.0.1/-/52ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86606
+hostname: liud.local
+
+2017-05-12 17:11:33,373 ERROR 86725 [-/127.0.0.1/-/54ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86725
+hostname: liud.local
+
+2017-05-12 17:12:30,216 ERROR 86756 [-/127.0.0.1/-/72ms POST /auth] nodejs.ReferenceError: _uid is not defined
+    at AuthController.index (/Users/liudong/Documents/website/8jk/app/controller/auth.js:30:40)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at tryCatcher (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/liudong/Documents/website/8jk/node_modules/._bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:666:20)
+    at tryOnImmediate (timers.js:639:5)
+    at processImmediate [as _immediateCallback] (timers.js:611:5)
+
+pid: 86756
+hostname: liud.local
+

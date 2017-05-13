@@ -24,6 +24,7 @@
     "egg-mongoose": "^1.1.1",
     "egg-redis": "^1.0.1",
     "egg-schedule": "^2.3.0",
+    "egg-socket.io": "^1.2.2",
     "egg-validate": "^1.0.0",
     "moment": "^2.18.1"
   },

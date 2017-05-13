@@ -7,23 +7,24 @@ module.exports = () => {
         const token = this.request.token || this.query.token || this.get('x-access-token');
         if (token) {
             try {
-                let { _uid } = app.jwt.verify(token, app.config.jwt.secret);
-                let key = `uid:${_uid}`;
-                let user = yield app.redis.hgetall(key);
-                if (user) {
+                const { _uid } = app.jwt.verify(token, app.config.jwt.secret);
+                const ukey = `uid:${_uid}`;
+                const rtk = yield app.redis.hgetall(ukey);
+                if (rtk) {
                     //if((Date.now()-user.exp) <= 7*24*60*60*1000){}
-                    if (yield app.redis.ttl(key) < 24 * 60 * 60) {
+                    let uttl = yield app.redis.ttl(ukey);
+                    if (uttl < 24 * 60 * 60) {
                         let lat = Date.now();
                         //updata logintime
                         yield ctx.model.member.updateOne({ _id: _uid }, { $set: { lasttime: lat } }, { upsert: true });
                         //Rewrite to redis
-                        let userdate = {
+                        let udate = {
                             token: token,
                             exp: lat
                         }
-                        yield app.redis.del('uid:' + _uid);
-                        yield app.redis.hmset('uid:' + _uid, userdate);
-                        yield app.redis.expire('uid:' + _uid, 7 * 24 * 60 * 60);
+                        yield app.redis.del(ukey);
+                        yield app.redis.hmset(ukey, udate);
+                        yield app.redis.expire(ukey, 7 * 24 * 60 * 60);
                     }
                     yield next;
                 } else {

@@ -33,6 +33,7 @@
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-validate@1.0.0@egg-validate/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-mongoose@1.1.1@egg-mongoose/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg-redis@1.0.1@egg-redis/config/locales",
+        "/Users/liudong/Documents/website/8jk/node_modules/._egg-socket.io@1.2.2@egg-socket.io/config/locales",
         "/Users/liudong/Documents/website/8jk/node_modules/._egg@1.3.0@egg/config/locales",
         "/Users/liudong/Documents/website/8jk/config/locales"
       ],
@@ -175,6 +176,15 @@
         "db": 0
       }
     },
+    "io": {
+      "init": {},
+      "namespace": {
+        "/": {
+          "connectionMiddleware": [],
+          "packetMiddleware": []
+        }
+      }
+    },
     "env": "local",
     "name": "8jk",
     "keys": "<String len: 6>",
@@ -208,6 +218,7 @@
         "egg-mongoose": "^1.1.1",
         "egg-redis": "^1.0.1",
         "egg-schedule": "^2.3.0",
+        "egg-socket.io": "^1.2.2",
         "egg-validate": "^1.0.0",
         "moment": "^2.18.1"
       },
@@ -504,6 +515,17 @@
       "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
       "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-redis@1.0.1@egg-redis",
       "version": "1.0.1"
+    },
+    "io": {
+      "enable": true,
+      "package": "egg-socket.io",
+      "name": "io",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/liudong/Documents/website/8jk/config/plugin.js",
+      "path": "/Users/liudong/Documents/website/8jk/node_modules/._egg-socket.io@1.2.2@egg-socket.io",
+      "version": "1.2.2"
     }
   }
 }
