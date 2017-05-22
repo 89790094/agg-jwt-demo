@@ -4,7 +4,8 @@
   "description": "8jk",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "start": "egg-bin dev --cluster --sticky --port 3000"
   },
   "repository": {
     "type": "git",
@@ -24,11 +25,10 @@
     "egg-mongoose": "^1.1.1",
     "egg-redis": "^1.0.1",
     "egg-schedule": "^2.3.0",
-    "egg-socket.io": "^1.2.2",
     "egg-validate": "^1.0.0",
     "moment": "^2.18.1"
   },
   "devDependencies": {
-    "egg-bin": "^3.3.1"
+    "egg-bin": "^3.3.2"
   }
 }

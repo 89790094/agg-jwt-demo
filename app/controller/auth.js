@@ -19,19 +19,20 @@ module.exports = app => {
         //update logintime
         const ukey = `uid:${_id}`;
         let lat = Date.now();
-        yield ctx.model.member.updateOne({ _id: _id }, { $set: { lasttime: lat } }, { upsert: true });
+        yield ctx.model.member.updateOne({ _id: _id }, { $set: { lastAt: lat } }, { upsert: true });
         let payload = { _uid: _id };
         let accesstoken = app.jwt.sign(payload, app.config.jwt.secret);
         //write to redis
-        let userdate = {
+        let udate = {
           token: accesstoken,
           exp: lat
         }
         if(yield app.redis.exists(ukey)){
           yield app.redis.del(ukey);
         }
-        yield app.redis.hmset(ukey, userdate);
+        yield app.redis.hmset(ukey, udate);
         yield app.redis.expire(ukey, 7 * 24 * 60 * 60);
+        ctx.rotateCsrfSecret();
         ctx.status = 200;
         ctx.body = { token: accesstoken };
       }

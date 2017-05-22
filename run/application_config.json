@@ -180,8 +180,20 @@
       "init": {},
       "namespace": {
         "/": {
-          "connectionMiddleware": [],
-          "packetMiddleware": []
+          "connectionMiddleware": [
+            "conn"
+          ],
+          "packetMiddleware": [
+            "handle"
+          ]
+        },
+        "/chat": {
+          "connectionMiddleware": [
+            "conn"
+          ],
+          "packetMiddleware": [
+            "handle"
+          ]
         }
       }
     },
@@ -198,7 +210,8 @@
       "description": "8jk",
       "main": "index.js",
       "scripts": {
-        "dev": "egg-bin dev"
+        "dev": "egg-bin dev",
+        "start": "egg-bin dev --cluster --sticky --port 3000"
       },
       "repository": {
         "type": "git",
@@ -220,10 +233,11 @@
         "egg-schedule": "^2.3.0",
         "egg-socket.io": "^1.2.2",
         "egg-validate": "^1.0.0",
-        "moment": "^2.18.1"
+        "moment": "^2.18.1",
+        "socket.io-client": "^2.0.1"
       },
       "devDependencies": {
-        "egg-bin": "^3.3.1"
+        "egg-bin": "^3.3.2"
       }
     },
     "baseDir": "/Users/liudong/Documents/website/8jk",

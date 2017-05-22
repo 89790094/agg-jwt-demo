@@ -31,12 +31,15 @@ module.exports = {
         }
     },
     io: {
-        init: {},
         namespace: {
             '/': {
-                connectionMiddleware: [],
-                packetMiddleware: [],
+                connectionMiddleware: ['conn'],
+                packetMiddleware: ['handle']
             },
-        },
+            '/chat': {
+                connectionMiddleware: ['conn'],
+                packetMiddleware: ['handle']
+            }
+        }
     }
 }

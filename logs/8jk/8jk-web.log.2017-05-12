@@ -1,0 +1,154 @@
+2017-05-13 15:31:03,072 WARN 90372 [-/127.0.0.1/-/4ms POST /api/v1/member] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-05-13 15:31:03,078 WARN 90372 [-/127.0.0.1/-/8ms POST /api/v1/member] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/liudong/Documents/website/8jk/node_modules/._koa@1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._koa-compose@2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 90372
+hostname: liud.local
+
+2017-05-13 15:31:23,182 WARN 90372 [-/127.0.0.1/-/22ms POST /api/v1/member] nodejs.SyntaxError: Unexpected token ' in JSON at position 1
+    at Object.parse (native)
+    at parse (/Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:62:17)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:45:22
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+status: 400
+body: '{\'_csrf\':\'A5xwEpXN5p9UCYlZDIXqt36E\',\'a\':\'value\'}'
+pid: 90372
+hostname: liud.local
+
+2017-05-13 15:41:04,895 WARN 90372 [-/127.0.0.1/-/1ms POST /api/v1/member] nodejs.SyntaxError: Unexpected token ' in JSON at position 1
+    at Object.parse (native)
+    at parse (/Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:62:17)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:45:22
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+status: 400
+body: '{\'_csrf\':\'A5xwEpXN5p9UCYlZDIXqt36E\',\'a\':\'value\'}'
+pid: 90372
+hostname: liud.local
+
+2017-05-13 15:41:06,255 WARN 90372 [-/127.0.0.1/-/1ms POST /api/v1/member] nodejs.SyntaxError: Unexpected token ' in JSON at position 1
+    at Object.parse (native)
+    at parse (/Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:62:17)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:45:22
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+status: 400
+body: '{\'_csrf\':\'A5xwEpXN5p9UCYlZDIXqt36E\',\'a\':\'value\'}'
+pid: 90372
+hostname: liud.local
+
+2017-05-13 15:41:16,083 WARN 90372 [-/127.0.0.1/-/1ms POST /api/v1/member] nodejs.SyntaxError: Unexpected token ' in JSON at position 1
+    at Object.parse (native)
+    at parse (/Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:62:17)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:45:22
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+status: 400
+body: '{\'_csrf\':\'A5xwEpXN5p9UCYlZDIXqt36E\',\'a\':\'value\'}'
+pid: 90372
+hostname: liud.local
+
+2017-05-13 15:41:17,876 WARN 90372 [-/127.0.0.1/-/1ms POST /api/v1/member] nodejs.SyntaxError: Unexpected token ' in JSON at position 1
+    at Object.parse (native)
+    at parse (/Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:62:17)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:45:22
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+status: 400
+body: '{\'_csrf\':\'A5xwEpXN5p9UCYlZDIXqt36E\',\'a\':\'value\'}'
+pid: 90372
+hostname: liud.local
+
+2017-05-13 15:42:12,854 WARN 90602 [-/127.0.0.1/-/30ms POST /api/v1/member] nodejs.SyntaxError: Unexpected token ' in JSON at position 1
+    at Object.parse (native)
+    at parse (/Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:62:17)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:45:22
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+status: 400
+body: '{\'_csrf\':\'A5xwEpXN5p9UCYlZDIXqt36E\',\'a\':\'value\'}'
+pid: 90602
+hostname: liud.local
+
+2017-05-13 15:42:13,886 WARN 90602 [-/127.0.0.1/-/3ms POST /api/v1/member] nodejs.SyntaxError: Unexpected token ' in JSON at position 1
+    at Object.parse (native)
+    at parse (/Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:62:17)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co-body@5.1.1@co-body/lib/json.js:45:22
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+status: 400
+body: '{\'_csrf\':\'A5xwEpXN5p9UCYlZDIXqt36E\',\'a\':\'value\'}'
+pid: 90602
+hostname: liud.local
+
+2017-05-13 15:44:10,717 WARN 90617 [-/127.0.0.1/-/8ms POST /api/v1/member] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-05-13 15:44:10,721 WARN 90617 [-/127.0.0.1/-/11ms POST /api/v1/member] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/liudong/Documents/website/8jk/node_modules/._koa@1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._koa-compose@2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 90617
+hostname: liud.local
+
+2017-05-13 15:44:13,033 WARN 90617 [-/127.0.0.1/-/2ms POST /api/v1/member] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2017-05-13 15:44:13,034 WARN 90617 [-/127.0.0.1/-/2ms POST /api/v1/member] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/liudong/Documents/website/8jk/node_modules/._koa@1.4.0@koa/lib/context.js:89:23)
+    at Object.assertCsrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/app/extend/context.js:142:17)
+    at Object.csrf (/Users/liudong/Documents/website/8jk/node_modules/._egg-security@1.9.0@egg-security/lib/middlewares/csrf.js:30:10)
+    at next (native)
+    at Object.<anonymous> (/Users/liudong/Documents/website/8jk/node_modules/._koa-compose@2.5.1@koa-compose/index.js:28:19)
+    at next (native)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:65:19)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+    at /Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:54:5
+    at Object.co (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:50:10)
+    at Object.toPromise (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:118:63)
+    at next (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:99:29)
+    at onFulfilled (/Users/liudong/Documents/website/8jk/node_modules/._co@4.6.0@co/index.js:69:7)
+message: 'invalid csrf token'
+pid: 90617
+hostname: liud.local
+

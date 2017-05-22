@@ -2,8 +2,8 @@ const path = require('path');
 module.exports = () => {
     return function* (next) {
         const { app } = this;
-        if (this.path === '/api/v1/') return yield next;
-        //curl -X GET http://127.0.0.1:7001//api/v1/member -H 'Content-Type: application/json;charset=UTF-8' -H 'x-access-token:<token>' --compressed
+        if (this.path === '/api/v1/' || this.path === '/chat') return yield next;
+        //curl -X GET http://127.0.0.1:7001//api/v1/member -H 'Content-Type: application/json;charset=UTF-8' -H 'x-access-token:Bearer <token>' --compressed
         const token = this.request.token || this.query.token || this.get('x-access-token');
         if (token) {
             try {
@@ -16,7 +16,7 @@ module.exports = () => {
                     if (uttl < 24 * 60 * 60) {
                         let lat = Date.now();
                         //updata logintime
-                        yield ctx.model.member.updateOne({ _id: _uid }, { $set: { lasttime: lat } }, { upsert: true });
+                        yield ctx.model.member.updateOne({ _id: _uid }, { $set: { lastAt: lat } }, { upsert: true });
                         //Rewrite to redis
                         let udate = {
                             token: token,
@@ -26,6 +26,7 @@ module.exports = () => {
                         yield app.redis.hmset(ukey, udate);
                         yield app.redis.expire(ukey, 7 * 24 * 60 * 60);
                     }
+                    this.uid = _uid;
                     yield next;
                 } else {
                     this.status = 401;
